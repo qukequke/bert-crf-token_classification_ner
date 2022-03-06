@@ -2,7 +2,7 @@
 中文NER命名实体识别，Bert, RoBerta，基于pytorch，开箱即用。
 
 ## 中文数据集 CNER
-类别：NAME,CONT,RACE,TITLE,EDU,ORG,LOC,PRO 8大类，再按OBMES标记,加上start、end、pad实际共31类
+类别：NAME,CONT,RACE,TITLE,EDU,ORG,LOC,PRO 8大类，再按BI标记,加上start、end、pad、O实际共20类
 
 # 原始数据样例格式
 ```
