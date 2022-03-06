@@ -65,7 +65,7 @@ bert_crf_token_classification_raw/
 
 2、在config.py中修改dir_name
 
-# bert 训练曲线(10epoch)
+# bert 训练曲线(20epoch)
 ![image](data/med_data/dev_f1.png)
 ![image](data/med_data/loss.png)
 
@@ -76,6 +76,6 @@ python train.py  # 会生成data/med_data/dev_f1.png,data/med_data/loss.png,正�
 # 终端直接输入文本测试
 python infer.py # 里面参数需要重新配置，不导入config
 # test.csv测试
-python test.py  # 会生成data/med_data/test_pred_oumed_data.csv
+python test.py  # 会生成data/med_data/test_data_predict.csv
 ``
 

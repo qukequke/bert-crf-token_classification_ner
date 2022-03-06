@@ -384,8 +384,6 @@ def calc_decode_acc(decode_labels, decode_preds):
     # right_num
 
 
-
-
 def ner_decode(data):
     label2id = load_json(json_dict)
     id2label = {v: k for k, v in label2id.items()}
@@ -570,8 +568,8 @@ def get_entity_bio(seq, id2label):
         #output
         [['PER', 0,1], ['LOC', 3, 3]]
     """
-    print(seq)
-    print(id2label)
+    # print(seq)
+    # print(id2label)
     chunks = []
     chunk = [-1, -1, -1]
     for indx, tag in enumerate(seq):
