@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
-import torch
 from sys import platform
 from torch.utils.data import DataLoader
-from transformers import RobertaTokenizer, BertTokenizer, DataCollatorForSeq2Seq
-# from model import BertModelTest
 from model import BertModel
 from utils import *
 from dataset import DataPrecessForSentence
 from config import *
+bert_path_or_name = model_dict[MODEL][-1]
 
 
 def main():
@@ -76,9 +74,9 @@ def main():
         print(dict_every_type)
 
     # df['should_label'] = all_labels
-    label_entities = [get_entities(i, id2label, 'bio') for i in all_pred]
-    df['ann_data'] = label_entities
-    df['ann_data'] = df[['start', 'raw_sen', 'ann_data']].apply(lambda x:[[i[0], i[1]+x.start, i[2]+x.start+1, x.raw_sen[i[1]:i[2]+1]] for i in x.ann_data], axis=1)
+    # label_entities = [get_entities(i, id2label, 'bio') for i in all_pred]
+    # df['ann_data'] = label_entities
+    # df['ann_data'] = df[['start', 'raw_sen', 'ann_data']].apply(lambda x:[[i[0], i[1]+x.start, i[2]+x.start+1, x.raw_sen[i[1]:i[2]+1]] for i in x.ann_data], axis=1)
     df.to_csv(test_pred_out, index=False, encoding='utf-8')
 
 

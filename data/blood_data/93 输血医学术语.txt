@@ -1,0 +1,1731 @@
+CS	11.020
+C 50
+
+
+
+
+中 华 人 民 共 和 国 卫 生 行 业 标 准
+WS/T 203—2020
+代替 WS/T 203-2001
+
+
+
+
+
+
+
+
+
+输血医学术语
+Terminology for transfusion medicine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020 - 04 - 23 发布	2020 - 11 - 01 实施
+
+中华人民共和国国家卫生健康委员会	发 布
+
+
+
+
+目	次
+前言	II
+1范围	1
+2基础术语	1
+3基础输血学有关术语	2
+4献血服务学有关术语	11
+5输血技术学有关术语	13
+6临床输血学有关术语	18
+7输血管理学有关术语	25
+索引	29
+
+
+
+前	言
+
+
+本标准按照GB/T 1.1－2009给出的规则起草。
+本标准代替WS/T 203-2001《输血医学常用术语》。本标准与WS/T 203-2001相比，主要变化如下：
+——调整了标准的内容结构，根据国家标准化管理委员会 2016 年 7 月发布的关于批准发布 GB/T
+13745-2009《学科分类与代码》国家标准第 2 号修改单的公告，将本标准的术语分为基础术语、
+基础输血学、献血服务学、输血技术学、临床输血学和输血管理学共 6 章，各章内的术语按照概念的逻辑和递进关系排序；
+——为方便其他使用中文的地区对本标准的引用和参照，对部分特定术语以“注”的形式来表示在其他中文地区的名称，如自愿无偿献血者在我国港澳台地区被称为捐血者等；
+——增加了一些近年来输血医学实践中新出现的外来术语，体现国内输血医学的最新发展水平，如献血者屏蔽、区域联合屏蔽、核酸检测收益、患者血液管理和血液安全监测等；
+——删除了不具有输血行业特定表达意义的术语，如血液等;删除了其他行业已经明确的,本标准使用者宜直接引用的术语，如抗原、抗体等；删除了一些虽属于本标准范畴，但其概念显而易见且不易引起误解或歧义的术语，如术前采血、贮血冷藏箱和血袋等；
+——尽可能与国内现行其他输血标准保持一致是本标准修订的原则之一，但对于其他标准中存在歧义，或者与国际共识不一致的术语，在本标准中以“注”的形式予以修订完善；
+——本标准不收录造血干细胞、血浆衍生制品方面的术语；
+——增加术语的中英文索引，中文术语按汉语拼音字母顺序编排，英文术语按字母顺序编排。
+　　本标准起草单位：上海市血液中心、北京市红十字血液中心、浙江省血液中心、中国医学科学院输血研究所、中国人民解放军总医院、华中科技大学同济医学院附属协和医院。
+　　本标准主要起草人：朱永明、龚裕春、王鸿捷、林俊杰、刘嘉馨、吕杭军、汪德清、胡丽华、徐忠、王乃红。
+本标准所代替标准的历次版本发布情况为：
+——WS/T 203-2001。
+
+
+
+
+输血医学术语
+
+
+1范围
+
+本标准界定了国内输血医学专业常用管理和技术术语的规范用词及其涵义。本标准适用于国内输血医学专业及相关领域对输血常用术语的引用和释义。
+
+2基础术语2.1
+
+输血医学	transfusion medicine
+　　临床医学的重要组成部分。主要研究与血液和输血相关的基础理论、血液免疫机理与临床治疗、技术应用与扩展、献血服务与血液质量、成分输血与血液制品应用、经血液传播疾病的预防与治疗、信息化管理等，研究和推广输血新技术，达到输血的科学性、安全性、有效性和可及性。
+注1：2016 年 7 月，输血医学被国家标准化管理委员会批准增设为二级学科。
+注2：在 “输血医学”下设立三级学科“基础输血学、献血服务学、输血技术学、临床输血学、输血管理学和输血医学其他学科”。
+2.1.1
+
+基础输血学 fundamental transfusion medicine
+　　主要包括输血免疫血液学、血型群体遗传学、人类白细胞抗原、经输血传播疾病、血液替代品和通用血研究等。
+2.1.2
+
+献血服务学 science of blood donation service
+　　主要包括无偿献血宣传、献血者招募、建立稀有血型血液供者库、咨询、管理、护理和服务等，以及后续相关配套的各方面服务工作。
+2.1.3
+
+输血技术学 transfusion technology
+　　主要包括血液采集、分离与制备技术（含单采技术和造血干细胞制备）；输血传播性疾病检测技术； 白细胞去除技术；血液辐照技术；病毒灭活技术；血液低温冻存技术；血液冻干技术；输血相容性检测技术；血小板配型技术；组织配型技术；输血相关血栓与止血检测技术；血液保存与运输技术等。
+2.1.4
+
+临床输血学 clinical transfusion medicine
+　　主要包括全血、成分血、血液制品应用；临床输血适应证与禁忌证；输血前评估及输血后疗效评价； 输血护理；输血不良反应与防治；输血相关细胞治疗；输血相关基因工程产品应用；血浆置换与单采治
+
+
+疗；胎儿或新生儿溶血病输血治疗和自体输血等。
+
+2.1.5
+
+输血管理学	transfusion management
+　　输血管理学包括血站管理和临床输血管理。在血站管理包括一般血站管理和特殊血站管理；在血站质量管理和血站实验室质量管理包括组织管理、资源管理、业务过程管理和程序管理；血站信息化管理等。临床输血管理包括临床用血管理和输血科（医院血库）管理，包括组织管理、资源管理、输血治疗全程质量管理、输血实验室管理、输血实验室质量管理、血液管理、教学培训和科研管理、输血伦理法学管理和信息化管理等。
+2.2
+
+医院血库	hospital blood bank
+医院输血科 department of transfusion medicine
+　　由医疗机构设置，负责临床用血储存和发放以及医疗用血业务指导等工作。主要职责是：建立临床用血质量管理体系，推动临床合理用血；负责制订临床用血储备计划，根据血站供血的预警信息和医院的血液库存情况协调临床用血；负责血液预订、入库、储存、发放工作；负责输血相关免疫血液学检测； 参与推动自体输血等血液保护及输血新技术；参与特殊输血治疗病例的会诊，为临床合理用血提供咨询； 参与临床用血不良事件的调查；根据临床治疗需要，参与开展血液治疗相关技术；承担医疗机构交办的有关临床用血的其他任务。
+
+3基础输血学有关术语
+
+3.1免疫血液学3.1.1
+血型 blood group
+　　在血液中所能检测出的任何遗传多态性可称之为血型，但血型通常被限定为血细胞表面抗原的多态性，包括红细胞、血小板和中性粒细胞血型。在非特指的情况下，血型一般是指红细胞血型。
+3.1.2
+
+血型鉴定 blood group typing
+确认血细胞上具有遗传多态性的抗原特异性。
+
+3.1.3
+
+血浆复钙化 recalcification of plasma
+　　通过加入足够钙离子使得原来加入ACD、CPD等含柠檬酸或柠檬酸盐抗凝剂的抗凝血浆，重新启动内源性凝血，获得血凝能力。
+3.1.4
+
+集合 collection
+　　在遗传学、生物化学或血清学上相关，但尚未达到血型系统标准的一套抗原，即200系列。通常是决定抗原的基因尚未被确定。
+
+
+3.1.5
+
+高频抗原系列 high-prevalence antigen series
+红细胞抗原频率在人群中大于99%，不属于任何血型系统和集合，称为高频抗原系列，即901系列。
+
+3.1.6
+
+低频抗原系列 low-prevalence antigen series
+红细胞抗原频率在人群中低于1%，不适合任何血型系统或集合，称为低频抗原系列，即700系列。
+
+3.1.7
+
+红细胞血型系统 red cell group system
+　　根据红细胞表面抗原的遗传关系所划分的类别。由1个基因座或相同功能的2～3个基因座控制的不同等位基因所编码或决定的血型抗原，归属于同一血型系统。一些血型系统的基因直接编码血型抗原决定簇所在蛋白，另外一些血型系统的抗原是碳水化合物，血型基因编码糖基转移酶，催化这些抗原的形成。
+3.1.7.1
+
+凝集	agglutination
+抗体分子在相邻的细胞表面抗原决定簇之间搭桥，使之形成肉眼可见的颗粒状凝集团块。
+
+3.1.7.2
+
+假凝集 pseudo-agglutination
+非抗原抗体结合引起的细胞颗粒状聚集。
+
+3.1.7.3
+
+缗钱状凝集 rouleaux formation
+在使用血浆扩容剂及血浆蛋白异常时，在显微镜下红细胞呈钱串状叠加的假凝集现象。
+
+3.1.7.4
+
+冷凝集反应 cold-reactive agglutination
+因冷抗体所致的红细胞凝集反应。
+
+3.1.7.5
+
+天然抗体 naturally occurring antibody;natural antibody
+未经输血或妊娠等明显免疫刺激，在血液中出现的血型抗体。
+
+3.1.7.6
+
+意外抗体 unexpected antibody
+正常ABO血型中抗A、抗B之外的血型抗体。意外抗体曾被称为不规则抗体（ irregular antibody）。
+
+3.1.7.7
+
+试剂红细胞组 red cell reagent panel
+
+
+　　用于意外抗体鉴定，经过选择的一组包含有不同抗原分布的O型试剂红细胞。试剂红细胞组曾被称为谱细胞（ panel cells）。
+3.1.7.8
+
+A抗原 A antigen
+　　在H物质岩藻糖基化的末端半乳糖残基的碳3位置上连接的N-乙酰氨基半乳糖（GalNAc），是A抗原的免疫显性单糖，表现A抗原的活性。
+3.1.7.9
+
+B抗原 B antigen
+　　在H物质岩藻糖基化的末端半乳糖残基的碳3位置上连接的 D-半乳糖（Gal），是B抗原的免疫显性单糖，表现B抗原的活性。
+3.1.7.10
+
+H抗原 H antigen
+　　血型前身物质末端半乳糖首先在碳2位置上连接一个L-岩藻糖（Fuc）形成H抗原，L-岩藻糖残基是H 抗原的免疫显性单糖，H抗原是A和B抗原形成的基础。
+3.1.7.11
+
+抗A	anti-A
+只同A抗原发生凝集反应的抗体。
+
+3.1.7.12
+
+抗B	anti-B
+只同B抗原发生凝集反应的抗体。
+
+3.1.7.13
+
+兰德斯坦纳法则 Landsteiner’s rule
+　　在ABO血型系统中，超过4～6个月龄的个体，血浆或血清中都含有针对自身红细胞所缺乏A、B抗原的抗体。
+3.1.7.14
+
+ABO血型定型	ABO blood group determination
+　　用正定型和反定型试剂分别检测红细胞膜表面的A抗原和B抗原，以及血清或血浆中的抗A和抗B抗体， 通过正反定型结果判断ABO血型。
+3.1.7.14.1
+
+正定型 forward type
+细胞定型 cell grouping
+用抗A和抗B血型抗体，检测红细胞膜表面是否存在A抗原和B抗原，以确定血型的方法。
+
+3.1.7.14.2
+
+反定型 reverse type
+
+
+血清定型 serum grouping
+用A1和B型红细胞，检测血清或血浆中是否存在抗A和抗B抗体，以确定血型的方法。
+
+3.1.7.14.3
+
+亚型 subgroup
+　　根据ABO定型的血清学特点及唾液中血型物质的特点，A型和B型可进一步分为A亚型（subgroup of A）和B亚型（subgroup of B）。
+　　A亚型主要有A1、Aint、A2、A3、Ax、Am等。最常见的A亚型是A1和A2型，此外A型还包括A抗原弱表达的表型。
+B亚型主要有B3、Bx、Bm等。
+
+3.1.7.14.4
+
+顺式AB型	CisAB group
+　　通常A抗原和B抗原由一对等位基因决定，而顺式AB血型的A和B抗原的特性由同一个等位基因决定， 遗传上红细胞上A和B抗原的特性不随等位基因的分离而分开。
+3.1.7.15
+
+孟买型	Bombay phenotype
+　　H抗原缺乏的非分泌型被称为孟买型（Oh）。虽然带有正常的ABO基因，但红细胞膜上不表达A、B 和H抗原，唾液等分泌液中无A、B和H血型物质。血清中含有抗A、抗B和抗H抗体。
+3.1.7.16
+
+类孟买型 para-Bombay phenotype
+　　H抗原缺乏的分泌型被称为类孟买型。ABO基因正常，红细胞膜上无H抗原，但可检测到少量A和/或B 抗原，唾液等分泌液中含有ABH血型物质。不同的类孟买表型，血清中含有抗A和/或抗B抗体及弱的抗H 抗体。
+3.1.7.17
+
+Rh血型系统 Rh blood group system
+　　国际输血协会命名的第4号血型系统，也是最复杂的血型系统，具有高度的免疫原性和复杂的多态性，在输血医学中的临床重要性仅次于ABO系统。Rh血型系统的抗原由RHD基因和RHCE基因编码。
+3.1.7.17.1
+
+Rh抗原 Rh antigen
+　　Rh血型系统目前已发现54种抗原（编号RH1至RH61，其中7个编号已废弃不用），均由RHD基因和RHCE 基因编码（分别表达RhD (CD240D) 和RhCcEe(CD240CE)蛋白）。Rh系统中具有临床重要性的抗体大多数针对的是五种主要抗原（D, C, c, E, e）。
+3.1.7.17.2
+
+Rh单倍型 Rh haplotype
+　　单倍型指一条同源染色体上的等位基因或遗传标记所构成的组合。Rh系统有八种主要的单倍型，分别是DCe、dce、DcE、Dce、dcE、dCe、DCE、dCE，其中d代表RHD基因缺失或不完整的RHD基因。
+
+
+3.1.7.17.3
+
+Rh表型 Rh phenotype
+　　通过血清学试验，鉴定红细胞上存在或缺失某种抗原，称为表型。使用抗D，抗C，抗c，抗E和抗e， 可以区分Rh系统18种表型。
+3.1.7.17.4
+
+D抗原 D antigen
+由RHD基因所编码的，人类红细胞上仅能被抗D识别的特异性膜蛋白抗原。
+　　红细胞表面携带正常的RhD蛋白，或D抗原变异导致的弱D、部分D和Del表型称为Rh阳性（RhD positive）。
+由RHD基因缺失或失活突变引起红细胞膜上D多肽缺失，从而导致所有D抗原表位缺失，称为Rh阴性
+（RhD negative）。
+
+3.1.7.17.5
+
+RhD血型鉴定 RhD typing
+使用抗D分型试剂，检测红细胞表面有无D抗原的方法。
+
+3.1.7.17.5.1
+
+RhD血型初检 RhD initial typing
+　　利用Rh血型定型试剂中的IgM抗D血型抗体与红细胞在盐水介质中反应，使用直接凝集试验检测红细胞上是否具有D抗原。
+3.1.7.17.5.2
+
+Rh阴性确认 confirmatory test for Rh negative
+通过排除弱D，来确认Rh阴性。
+
+3.1.7.17.6
+
+弱D weak D
+D抗原表达减弱的表型。
+
+3.1.7.17.7
+
+D变异型 D variant
+D抗原发生数量或性质上的变化，称为D变异型，可分为弱D和部分D。
+
+3.1.7.17.8
+
+Del表型 Del phenotype
+　　Del红细胞表达极低水平的D抗原。常规血清学方法无法检测Del表型。该表型的红细胞可吸收并放散抗D。亚洲人群中10%至30%的D阴性个体为Del表型。
+3.1.7.17.9
+
+部分D	partial D
+
+
+　　红细胞缺失一部分D抗原表位的表型，表现为D抗原性质上的变化。一些部分D同时也是“弱D”，即伴随着D抗原数量的减少。
+3.2白细胞抗原系统3.2.1
+主要组织相容性复合体 major histocompatibility complex；MHC
+　　一组基因组合，编码与抗原呈递和细胞间识别相关的蛋白,有时也代表这一组基因编码表达的分子或抗原组成的复合体，主要控制机体对抗外来组织或器官反应性，与组织器官移植排异密切相关，在人称为HLA复合体,位于人第6号染色体短臂。MHC分成三个区域，分别为MHC-I、II、III类区域。
+3.2.1.1
+
+MHC-I类区域 MHC class I region
+　　位于第6号染色体短臂近端粒处，主要包括HLA-I类基因，分为HLA-A、B、C、E、F、G、MICA、MICB 等，其中HLA-A、B、C被称为经典HLA-I类基因，编码表达MHC I类分子重链。HLA-E、F、G等则属于非经典HLA-I类基因，该区域还有若干功能不明的基因。
+3.2.1.2
+
+MHC-II类区域 MHC class II region
+位于第6号染色体短臂的着丝点端, 主要包括HLA-II类基因，分为HLA-DRB1, -DRB3/4/5,-DQA1,
+-DQB1, -DPA1、-DPB1、-DOA、DOB、-DMA、-DMB等，分别编码MHC II类分子中同名分子的α或β链。
+
+3.2.1.3
+
+MHC-III类区域 MHC class III region
+　　位于MHC-I类和MHC-II类区域之间, 含有一系列基因，分别编码某些血清补体成分、热休克蛋白、肿瘤坏死因子等，如人C2、Bf、C4A、C4B等，不参与HLA抗原组成，不参与抗原提呈，但与免疫反应有关。
+3.2.2
+
+次要组织相容性抗原 minor histocompatibility antigen；mHag
+　　供受者之间存在某些不匹配的组织抗原，可以在供受者MHC完全匹配时诱导MHC限制性杀伤性T细胞反应或增殖，造成排异反应，这些组织抗原可以是性别连锁的，也可以是非性别连锁的。比较明确的性别连锁的mHag有H-Y,非性别连锁的mHag有HA-1～-5等。
+3.2.3
+
+人类白细胞抗原 human leucocyte antigen；HLA
+　　人体组织细胞共有或部分共有的一种糖蛋白类抗原，分为HLA-I类抗原和HLA-II类抗原；HLA-I类抗原可表达在很多有核细胞表面；HLA-II类抗原可表达在B细胞、活化的T细胞及抗原提呈细胞等细胞的细胞膜上。
+3.2.3.1
+
+HLA-I类抗原 HLA class I antigen MHC-I类分子 MHC class I molecule
+
+
+　　主要分为HLA-A、B、C抗原，每种抗原由一条跨膜的α链和一条游离的β链组成，α链44Kd，具有多态性，β链12Kd，无多态性。HLA-I类抗原提呈内源性抗原多肽,被CD8阳性T细胞识别。
+3.2.3.2
+
+HLA-II类抗原 HLA class II antigen MHC-II类分子 MHC class II molecule
+　　由HLA-II类基因编码表达，主要分为HLA-DR、-DQ、-DP抗原等，每种抗原由一条α链（34KD）和一条β链(29Kd)组成,识别提呈外源性抗原多肽给CD4阳性T细胞。
+3.2.4
+
+微量淋巴细胞毒试验 lymphocyte microcytotoxicity test;LCT
+　　检测淋巴细胞表面HLA抗原的一种方法，相应的抗体结合抗原在补体存在时形成攻膜复合物从而杀伤淋巴细胞，导致淋巴细胞肿胀坏死。本试验又称补体依赖性细胞毒试验（complement-dependent lymphocytotoxicity test;CDC）。
+3.2.5
+
+混合淋巴细胞培养 mixed lymphocyte culture;MLC 混合淋巴细胞反应 mixed lymphocyte reaction;MLR
+　　常用于器官移植前的组织配型，以测定受体和供体主要组织相容性抗原(HLA抗原)相容的程度。若一方（通常为供者）淋巴细胞经灭活处理，则称单向混合淋巴细胞培养（one-way mixed lymphocyte culture）。
+3.2.6
+
+组织相容性分型 histocompatibility typing 组织相容性配型	histocompatibility matching
+　　为了顺利进行同种异体器官或组织细胞移植而进行的一系列检测，包括对供受者的HLA抗原分型、供受者间交叉配型以识别临床相关的针对供者的抗体、持续监控受者的体液免疫状况以监测有无HLA抗体产生，以及供受者之间ABO血型分型等。
+3.2.7
+
+等位基因水平分型 allelic resolution typing
+所使用的DNA分型方法得到的核苷酸序列符合WHO HLA命名委员会所定义的某个等位基因。
+
+3.2.8
+
+高分辨率分型 high resolution typing
+　　DNA分型方法得到一组等位基因，该组等位基因已明确其编码HLA分子上抗原结合部位结构域的氨基酸序列，并且已排除了无细胞表面表达的等位基因，抗原结合部位结构域包括I类抗原的α链上的α1、α2结构域、II类抗原α链的α1结构域和β链的β1结构域。
+3.2.9
+
+低分辨率分型 low resolution typing
+　　DNA分型方法得到的结果，仅相当于等位基因命名的第一个区域对应的特异性，类似血清学分型结果的等价物。
+
+
+3.2.10
+
+P组编码 P code
+　　由WHO HLA命名委员会制定用于报告一组无法区分的HLA分型结果，该组特点是组内所有HLA等位基因均编码相同的抗原结合部位结构域,用大写的P字母直接接在该组命名时数值最小的等位基因名称后， 如A*02:05P, 代表A*02:05:01/ A*02:05:02/ A*02:05:03/ A*02:05:04/ A*02:05:05/ A*02:05:06/
+A*02:179/ A*02: 324这一组。
+
+3.2.11
+
+G组编码 G code
+　　由WHO HLA命名委员会制定用于报告一组无法区分的HLA分型结果，该组特点是组内所有HLA等位基因具有相同的编码抗原结合部位结构域的外显子核苷酸序列，用大写的G字母直接接在该组命名时数值最小的等位基因名称后，如A*02:05:01G代表了02:05:01/02:179/02:324这一组。
+3.2.12
+
+常见及确认的HLA等位基因表 common well-documented;CWD
+　　C代表常见的等位基因，在大于1500人的人群中观察到的等位基因频率>0.001；WD代表经过确认， 该组的等位基因应该在无关人群中至少被检测到5次以上，并且检测采用以测序为基础的分型方法，且HLA-I类基因测序至少包括第2,3外显子，HLA-II类基因测序至少包括第2外显子；或者，该等位基因在无关人群中采用测序方法证实，并确认包含在一个特定的单体型中3次以上；没有被列在CWD表上的可认为属于稀有或未经确认的等位基因。
+3.2.13
+
+HLA 血清学分型 HLA serologic typing
+　　获取样品后，利用免疫学技术分析样品的HLA相关抗原或抗体的特异性，待检物质可以分为细胞、血清或血浆。
+3.2.14
+
+HLA 基因分型 HLA genotyping
+　　抽提样品中的遗传物质（DNA或RNA），用分子生物学方法分析其组成，得到HLA型别的分型方法， 主要分为PCR-SSP， PCR-SSOP，PCR-SBT等。
+3.2.15
+
+交叉反应组 cross reaction group;CREG
+　　HLA I类抗原根据血清学的表现分成9个组（1C,2C,4C,5C,6C,7C,8C,10C和12C）,每个组都包含有若干表现出不同血清学特性的抗原，这些不同的血清学特性被认为属于特异性抗原，但同时每组又各自表现出一到几个的宽特异性。在异体供者器官源紧张时，有时可根据这些CREG而适当使用HLA不匹配的供者源器官。
+3.2.16
+
+抗体谱细胞反应性 panel reactive antibody;PRA 群体反应性抗体
+
+
+　　抗体与谱细胞或谱抗原反应百分比。利用一组带有不同抗原的谱细胞（或类似物），鉴定受检样品是否识别这些谱细胞，谱细胞设置要基本包括所有同源人群常见HLA抗原，一般包含30～60种已定型细胞，计算抗原抗体反应阳性的谱细胞占谱细胞总数的百分比，从而评估受检病人血液中是否含有HLA抗体即是否致敏以及致敏性的高低，帮助选择合适供者器官。
+3.2.17
+
+HLA抗体固相筛选技术 solid phase HLA antibody detection technology
+　　用重组DNA技术模拟HLA抗原，包被在ELISA板或荧光标记微珠上，用ELISA检测方法、流式细胞仪或LUMINEX仪器筛选检测HLA抗体。
+3.3经输血传播疾病3.3.1
+输血传播感染 transfusion-transmitted infection；TTI
+　　病原体通过输血过程从献血者体内进入到受血者体内并引起相应的感染或疾病。当感染的病原体为 病毒时，称为输血传播的病毒感染(transfusion-transmitted viral infection；TTVI)；当感染的病 原体为寄生虫时，称为输血传播的寄生虫感染(transfusion-transmitted parasitic infection；TTPI)； 当感染的病原体为细菌时，称为输血传播的细菌感染(transfusion-transmitted bacterial infection； TTBI)。当感染或疾病有可能经输血传播，而无论其通过输血传播实际发生可能性的大小，对这些感染 或疾病称为可经输血传播的感染（transfusion-transmissible infection）。
+3.3.1.1
+
+输血后肝炎	post-transfusion hepatitis ；PTH
+经输血传播发生的肝炎。
+
+3.3.1.2
+
+隐匿性乙型肝炎病毒感染 occult HBV infection；OBI
+　　感染乙型肝炎病毒以后，血清中不能检出乙型肝炎表面抗原(HBsAg)，但能检出HBV DNA的感染状态。血清中乙肝核心抗体 (抗-HBc)和/或乙肝表面抗体(抗-HBs)可检测为阳性，也可检测为阴性，肝组织中能检出病毒复制指标。
+3.3.2
+
+可经输血传播的病原体 transfusion-transmissible agent；TTA
+能引起输血传播感染的病原体。
+
+3.3.3
+
+窗口期 window period
+　　是指从感染病原开始，直至用某种检测方法能够检测到该病原体感染性标志物存在为止的这一段时间。不同的检测方法有不同的检测窗口期。
+3.3.4
+
+血清转换 seroconversion
+
+
+　　受访者感染病原体以后，采用血清学方法动态观察受访者血清中抗原或抗体标志物的检测情况，当抗原或抗体标志物由血清学阴性转变为血清学阳性的情况出现时，称为血清转换。
+3.3.5
+
+核酸检测收益 nucleic acid testing yield；NAT yield
+血液筛查得到的血清学指标阴性而相应核酸指标检出阳性的结果。
+
+3.3.6
+
+精英控制者 elite controller
+　　一类感染HIV后不服药也不会发病的病人，其外周血中抗-HIV阳性，但HIV RNA常因病毒载量低而无法检出（HIV核酸检测阴性）。该类病人占HIV感染者总数的比例小于1%。
+3.3.7
+
+新发感染 emerging infection
+　　在人群中新出现的或新认识到的，或者过去已经存在于人群中，但是其发病率突然增加或地域分布突然扩大，造成地域性或全球性公共卫生问题的感染性疾病。
+3.3.8
+
+新感染率 incidence rate
+　　某指定区域单位时间内献血者中某种输血感染性疾病的新感染者占给定献血者人群的比例，是评估残余风险度的主要指标。
+注：新感染率与流行病学领域的发病率（incidence rate）是两个不同的概念。
+
+3.3.9
+
+流行率 prevalence rate
+　　在流行病学领域指在某指定区域及指定时间内患有某种疾病或处于某种状态的人数占给定人群的比例。在输血残余风险评估时，流行率主要指某种感染性疾病的标记占给定献血人群的比例。
+3.3.10
+
+残余风险度 residual risk
+　　在采取干预措施（包括安全献血者挑选、严格感染性指标的筛查、提倡临床合理用血以及实施病原体灭活等）后的全血及血液成分仍然残留的输血传播感染的可能性。
+4献血服务学有关术语4.1
+献血 blood donation
+个人为临床治疗需要给予全血或血液成分的过程。
+注：献血可以献全血或血液成分。
+
+4.2
+
+单采 apheresis
+
+
+　　从一个献血者体内采集一种或几种血液成分，并将其余成分回输给献血者的过程，通常由血细胞分离机自动完成。
+4.3
+
+献血者	donor；blood donor
+给予全血或血液成分者。通常在未特别注明的情况下献血者指自愿无偿献血者。
+
+4.3.1
+
+自愿无偿献血者 non-remunerated voluntary blood donor
+　　个人自愿捐出其全血或血液成分而不接受任何报酬，无论是以现金的形式，还是可以折算成现金的其他替代形式，如超过献血和来往交通所需的合理时间之外的休假。给予小纪念品、点心和因献血往来直接的交通费用是符合自愿无偿献血原则的。
+自愿无偿献血也被称为利他性献血(altruistic blood donation)。
+注：在我国港澳台地区称为捐血者（donor；blood donor）。
+
+4.3.2
+
+初次献血者	first-time donor
+第一次参加献血的献血者。
+
+4.3.3
+
+重复献血者	repeat donor
+献血2次及以上的献血者。
+
+4.3.4
+
+定期献血者 regular donor
+至少献过3次血，且近12个月内献血至少1次的献血者。
+注：定期献血者以往被称为固定献血者。
+
+4.4
+
+单位 unit
+　　献血量和血液成分的计量方式。全血以200 ml为1个单位；血液成分以从200 ml全血中分离制备出的为1个单位；单采血小板以符合国家标准的1袋单采血小板（1个人份）为1个单位，1个单位单采血小板又称为1个治疗量（therapeutic dose）。
+4.5
+
+千人口献血量 blood donations per thousand population
+　　一段时间内（通常为一年），一个区域内平均每一千人口中的献血量（单位），通常用于衡量临床用血满足程度。
+注1：献血单位数如不加说明即指全血。注2：人口指本区域内常住人口。
+4.6
+
+千人口献血人数 blood donors per thousand population
+
+
+　　一段时间内（通常为一年），一个区域内平均每一千人口中的参与献血的人数，通常用于衡量公众参与献血的程度。
+4.7
+
+千人口献血人次 blood donation times per thousand population
+　　一段时间内（通常为一年），一个区域内平均每一千人口中的参与献血的人次数，通常用于衡量血站的服务能力。
+
+5输血技术学有关术语
+
+5.1血液采集5.1.1
+献血者知情同意 donor (informed) consent
+　　在献血前应书面告知献血者并解释相关信息，包括献血动机、安全献血者的重要性、具有高危行为者故意献血的责任、实名制献血、献血者献血后回告、献血反应、健康征询与检查、血液检测疫情报告等，并获得献血者认可并签名。
+5.1.2
+
+献血者确认 donor identification
+通过核查献血者有效身份证件、问询等方式，确认献血者身份的过程。
+
+5.1.3
+
+献血者延期 donor deferral
+　　对不符合献血要求的献血者采取暂缓或永久性延迟献血的措施。被采取延期措施的献血者中，某些献血者不需要采取特殊措施只需延期原因消失后就可以再次献血（如间隔期未到和体重不合格等）；而某些献血者需要经过一定的医学程序后才能判断是否能够再次献血。
+5.1.4
+
+献血者屏蔽 donor quarantine
+需要经过一定的医学程序后才能判断延期献血者是否能够再次献血的延迟措施。
+
+5.1.5
+
+风险行为	risk behavior
+可能致献血者增加感染经输血传播疾病几率的生活方式和行为。
+
+5.1.6
+
+全血	whole blood
+采用特定的方法将献血者体内一定量外周静脉血采集至血袋内，与一定量的血液保养液混合而成。
+
+5.1.7
+
+单采血液成分 apheresis blood component 单采成分血
+
+
+　　使用血细胞分离机在全封闭的条件下将献血者血液中一种或多种血液成分分离出而制成的血液组分。
+5.1.8
+
+血液成分 blood component 成分血
+　　在一定的条件下，采用特定的方法将全血中一种或多种血液成分分离出而制成的血液组分及单采血液成分的统称。
+5.1.9
+
+旁路转移袋 diversion pouch
+　　血液及血液成分采集时，为预防细菌污染，将穿刺后最先收集的一部分血液流入旁路系统，在旁路系统上有一个较小的血液收集袋，此袋称为旁路转移袋，待旁路转移袋注满后，再将血液导入正式采集袋。旁路转移袋中的血液仅作检测用，不再输入人体。
+5.1.10
+
+献血不良反应 blood donation adverse reaction
+献血相关并发症 complication related to blood donation
+　　极少数献血者在献血过程中或者献血后出现的穿刺部位局部出血、疼痛、过敏或者全身性血管迷走神经反应。
+5.1.11
+
+献血护理 blood-donor care
+　　在献血的过程中及献血后，专业人员对献血者进行观察和看护，减少或及时处置可能发生的献血不良反应。
+5.2献血前血液检测5.2.1
+血红蛋白	hemoglobin ；Hb
+　　献血者单位体积血液内血红蛋白的含量，是筛查献血者是否符合献血者健康检查要求的指标之一。常用检测方法有硫酸铜法（copper sulfate method）、血红蛋白试纸条比色法 （hemoglobin test strip colorimetric assay）和血液分析仪检测法（ hematology analyzer method）等。
+5.2.2
+
+红细胞比容	hematocrit；Hct
+　　献血者单位体积血液内红细胞的体积比，是筛查单采献血者是否符合献血者健康检查要求的指标之一。
+5.2.3
+
+血小板计数 platelet	count；PLT
+献血者单位体积血液内血小板的数量，是筛查单采献血者是否符合献血者健康检查要求的指标之一。
+
+5.3感染性疾病检测
+
+
+5.3.15.3.1
+
+血液筛查试验 blood screening test
+　　通常指对血液中可经输血传播疾病的相关标志物进行检测，广义的血液筛查还包括意外抗体的检测、稀有血型抗原的检测以及血液中其它生物标志物的检测。
+5.3.25.3.2
+
+初次试验 initial test
+　　对血液进行可经输血传播疾病筛查的初次检测，初次检测呈无反应性的血液合格；初次检测呈反应性的血液样本可进行复检，依据复检结果判断血液是否合格，也可不进行复检，初次检测结论即为检测最终结论。
+5.3.35.3.3
+
+复检 repeat test
+对血液筛查初次试验呈反应性的血液样本进行的双孔复试。
+
+5.3.45.3.4
+
+反应性 reactive
+　　在血液筛查试验中，判定试验有效后，按照试剂说明书的要求计算临界值，如果标本检测值大于或等于临界值，则判定标本检测结论为反应性。
+5.3.55.3.5
+
+无反应性 non-reactive
+　　在血液筛查试验中，判定试验有效后，按照试剂说明书的要求计算临界值，如果标本检测值小于临界值，则判定标本检测结论为无反应性。
+5.3.65.3.6
+
+灰区	grey zone
+在ELISA检测方法中，处于低于临界值并接近临界值的一些结果，这一区间的结果定义为“灰区”。
+
+5.3.75.3.7
+
+确证试验	confirmatory test
+对某一检验项目呈反应性的样品，采用更为特异、准确和可靠的技术予以进一步确认的检查方法。
+
+5.3.85.3.8
+
+阳性	positive
+　　在血液筛查试验中，对反应性标本做进一步确证试验，按照试剂说明书结果判断标准，出现传染病标志物，则判定标本检测结论为阳性。表示血液中存在传染病病原体。
+5.3.95.3.9
+
+阴性 negative
+
+
+　　在血液筛查试验中，对反应性标本做进一步确证试验，按照试剂说明书结果判断标准，未出现传染病标志物，则判定标本检测结论为阴性或在血液筛查试验中的无反应性标本判断为检查结论为阴性。表示血液中不存在传染病病原体。
+5.3.105.3.10
+
+不确定 indeterminate
+确证试验结果中不能判定为阳性、也不能判断为阴性的临界状态的结论。
+
+5.3.115.3.11
+
+仪器间比对 inter-instrument	comparison
+采用不同的仪器检测同一项目，实验室进行的在不同仪器上检测同一项目一致性比较的试验。
+
+5.3.125.3.12
+
+试剂比对 inter-reagent comparison
+　　采用不同厂家的试剂检测同一项目，实验室进行的在相同仪器上用不同厂家试剂检测同一项目一致性比较的试验。
+5.3.135.3.13
+
+室内质控 internal quality control；IQC
+实验室为控制检验数据的精密度所采取的管理或技术活动。
+
+5.3.145.3.14
+
+室间质量评价 external quality assessment；EQA
+　　多家实验室分析同一样本或参考样本盘并由外部独立机构收集和反馈实验室上报的结果以此评价实验室的操作过程。开展EQA项目能确定实验室的检测能力以及对检测质量进行持续监控的能力。其中， 按照预先规定的条件，由两个和多个实验室对相同或类似的物品进行测量或检测的组织、实施和评价的过程称为实验室间比对（inter-laboratory comparison）；由权威机构发放样本或参考样本盘，利用实验室间比对，按照预先制定的准则评价参加实验室的能力，称为实验室能力验证 （proficiency testing；PT）。
+5.3.155.3.15
+
+最佳条件变异 optimal conditions variance；OCV
+　　是指在某一实验室内，在最理想和最恒定的条件下，对同一质控物进行反复测定（至少20份数据）， 质控物能得出的最低变异。是在目前条件下本室该项目检测所能达到的最好的精密度水平，是本室工作水平的一个基础指标。
+5.3.165.3.16
+
+常规条件变异 routine conditions variance;RCV
+　　是指在某一实验室内，常规条件下，质控物每天随标本同时测定（连续20天获得20份数据），质控物所得出的变异。它反映常规条件下该项目的精密度水平。它不仅可以用于比较不同方法、仪器、操作者等在常规工作下的精密度，而且是室内质量控制中靶值和允许误差范围确定的依据。
+5.4血液制备
+
+
+密闭系统 closed system
+　　一次性血袋系统，其内容物在分离、分装等处置过程中与系统外部环境完全阻隔。数个密闭系统经无菌熔接合成新的系统，该新的系统仍为密闭系统。
+5.4.2
+
+开放系统 open system
+　　密闭系统在血液分离等处置过程中被开放、暴露于局部100级洁净度的环境后再行密闭的一次性血袋系统。
+5.4.3
+
+白膜法 buffy coat method
+　　从全血中分离浓缩血小板的一种制备方法。通常指全血经重离心后分离出一定量的富含白细胞和血小板的白膜层，然后经过轻离心分离出血小板的过程。
+5.4.4
+
+富含法 platelet-rich plasma method
+　　是富含血小板血浆法的简称。从全血中分离浓缩血小板的一种制备方法。通常指全血经轻离心后分离出富含血小板的血浆，然后经过重离心分离出浓缩血小板的过程。
+5.4.5
+
+去白膜 buffy coat removed
+　　一种减少红细胞成分中白细胞和血小板数量的制备方法。通常指红细胞成分经离心后分离出白膜层并弃去的过程。
+5.4.6
+
+去白细胞 leukocyte reduction
+　　在密闭系统中使用特定的方法去除全血或血液成分中的白细胞，使白细胞的残留量符合规定要求的过程。去白细胞过程可以在采血中也可以在采血后进行。
+5.4.7
+
+冰冻保存 cryopreservation
+为延长血液成分保存期，将血液成分冰冻至一定温度的保存方法。
+
+5.4.8
+
+无菌熔接 sterile welding
+　　使用无菌连接设备将两个独立的密闭系统进行连接，通常用于血液的汇合、分装、洗涤、过滤、转移和样本留取等过程。无菌熔接过程被视为密闭系统操作。
+5.4.9
+
+速冻 freezing
+在1h内经过快速冷冻使血液成分核心温度降低到-30℃以下。
+
+
+5.4.10
+
+洗涤 washing
+是指通过离心从细胞成分中去除血浆或储存介质以及移除上清液后添加等渗悬浮液的过程。
+
+5.4.11
+
+病原体去除 pathogen reduction；PR
+采用物理的或化学的方法使全血或血液成分中有可能存在的感染性病原体被移除的措施。
+
+5.4.12
+
+病原体灭活	pathogen inactivation；PI
+采用物理的或化学的方法使全血或血液成分中有可能存在的感染性病原体失去感染活性的措施。
+
+5.4.13
+
+辐照 irradiation
+使用一定照射强度的X射线或γ射线对血液进行照射,使血液中的T淋巴细胞失去活性的过程。
+
+5.5血液供应5.5.1
+隔离	quarantine
+　　将待检、质检、报废、不合格等血液与合格血液区分，并储存于特定区域，置以清晰的提示标识（计算机信息和实物），杜绝实物与实物之间、实物与信息之间、信息与信息之间的混淆。
+5.5.2
+
+放行	release
+将处于隔离或中间状态的全血及血液成分移出至可发放状态的过程。
+
+5.5.3
+
+血液库存管理 inventory management
+根据血液需求和血液库存情况，对采血或供血进行调整的管理措施。
+
+5.5.4
+
+保存期 shelf life
+血液在适宜条件下适合人体输注的最长储存期限。
+6临床输血学有关术语6.1
+
+输血 transfusion; blood transfusion
+全血、血液成分和血液制品输入患者循环系统的治疗过程。
+
+6.2
+
+
+输血前检测 pretransfusion testing
+在输血之前所做的常规检测流程，一般包括ABO血型和Rh血型、抗体筛查和交叉配血试验。
+
+6.2.1
+
+交叉配血 crossmatch
+检测献血者红细胞与受血者血清或血浆、受血者红细胞与献血者血清或血浆之间相容性的试验。
+
+6.2.2
+
+主侧交叉配血 major crossmatch
+检测献血者的红细胞与受血者的血清或血浆是否发生免疫性凝集反应或/和溶血反应的试验。
+
+6.2.3
+
+次侧交叉配血 minor crossmatch
+检测献血者的血清或血浆与受血者的红细胞是否发生免疫性凝集或/和溶血反应的试验。
+
+6.2.4
+
+电子交叉配血 electronic crossmatch
+　　对于既往和现在均未检出意外抗体的患者，按照电子配血标准操作规程，将患者的血液信息和献血者的血液信息输入计算机，由计算机系统判读患者和献血者的ABO和Rh血型的相容性。
+6.2.5
+
+相容性试验 compatibility test
+　　预判患者输血后是否会产生免疫性输血不良反应的体外试验总和。通常包括血型一致性或配合性检测、血型抗体检测以及交叉配合性试验。
+6.2.6
+
+抗体筛查 antibody screening
+意外抗体筛查 unexpected antibody screening
+　　检测受血者或献血者血液中是否存在可与同种异体红细胞的抗原发生反应的具有临床意义的意外抗体。
+6.2.7
+
+意外抗体鉴定 unexpected antibody identification
+　　应用一组试剂红细胞组和待检血清或血浆反应，分别分析在盐水介质和非盐水介质中的反应性及反应强度，对照试剂红细胞组的抗原，判断血清或血浆中可能存在的意外抗体的特异性。
+6.2.8
+
+吸收放散试验 absorbtion and elution test
+　　在一定条件下使红细胞与抗体结合，继而改变条件使红细胞与抗体解离，从而获得特定抗体的方法。例如冷吸收、热放散和热吸收、收酸放散等。常用于提纯或富集抗体以鉴定抗体特异性。
+6.2.9
+
+直接抗球蛋白试验 direct antiglobulin test；DAT
+
+
+直接库姆氏试验 direct Coombs test
+　　用抗人球蛋白试剂检测红细胞是否在体内被抗体或补体致敏的试验，可用于鉴别免疫性与非免疫性溶血。
+6.2.10
+
+间接抗球蛋白试验 indirect antiglobulin test；IAT 间接库姆氏试验 indirect Coombs test
+　　用抗人球蛋白试剂检测红细胞与抗体在体外是否发生反应的试验，用于抗体筛查、抗体鉴定、交叉配血与红细胞血型检测。
+6.3
+
+受血者确认 recipient identification
+在输血前核对患者和血液成分与需输血的患者及输血需求信息是否匹配。
+
+6.4
+
+受血者知情同意 recipient (informed) consent
+　　在输血之前应书面告知受血者或其近亲属并解释相关信息，包括输血指征、相关风险、可能的副作用和可能的替代方法等，并获得受血者或其近亲属认可并签名。
+6.5
+
+治疗性单采 therapeutic	apheresis
+　　使用单采技术从患者体内采集出某种血液成分弃去，并输入相应替代的液体。常用的治疗性单采包括血浆置换、治疗性红细胞单采、治疗性白细胞单采和治疗性血小板单采等。
+6.6
+
+血浆置换 plasma exchange
+治疗性血浆置换 therapeutic plasma exchange;TPE
+使用单采技术去除患者自身的血浆，替换为白蛋白、血浆或晶体液等的治疗措施。
+
+6.7
+
+患者血液管理	patient blood management；PBM
+以患者为中心，以循证医学证据为基础，采用多专科技术与方法，使需要输血的患者获得最佳治疗。
+
+6.8
+
+血液保护	blood conservation
+　　是患者血液管理的重要一环。通过应用多种策略和多专科技术方法，尽可能减少患者自身的血液丢失，以减少患者对异体血液的需求。
+6.9
+
+无输血医学 transfusion-free medicine
+通过多种策略和多专科技术方法，在不使用异体血液的情况下给予患者安全有效的治疗。
+
+6.10
+
+
+自体输血 autologous transfusion
+采集患者自身的全血或血液成分，在其术中或术后或紧急情况时予以回输的一种输血治疗方式。
+
+6.11
+
+术前自体血储存 preoperative autologous blood donation;PAD
+　　术前一次或多次采集患者自体全血或血液成分并储存起来，根据患者情况在术中或术后将其回输患者体内。
+6.12
+
+急性等容性血液稀释	acute normovolemic hemodilution;ANH
+　　术前为患者采集并暂存血液，用晶体液或胶体液补充循环血容量，使血液稀释，减少术中红细胞丢失，术后再行血液回输的过程。
+6.13
+
+急性高容性血液稀释 acute hypervolemic hemodilution;AHH
+　　术前静脉补充液体，扩充血容量的同时使得血液稀释，从而减少术中红细胞丢失，整个过程不采集自体血液。
+6.14
+
+血细胞回收	cell salvage
+术中将手术吸引装置中的血液和/或手术创口流出的血液回收，并进行洗涤等处理后回输的过程。
+
+6.15
+
+大量输血 massive transfusion
+　　短时间内连续、快速输注大量血液。通常是指24h内输入的血液总量等于或超出患者全身血容量， 或3h内的血液输注量达到受血者自身血容量的50%以上。
+6.16
+
+换血 exchange transfusion
+　　采出患者血液或某一血液成分并代之以相应的血液成分，以去除异常的血液组分或循环中的毒素的治疗过程。
+6.17
+
+限制性输血策略 restrictive transfusion strategy
+将患者的血红蛋白（Hb）水平低于70～80g/L作为红细胞成分输注指征。
+
+6.18
+
+非限制性输血策略 liberal transfusion strategy
+将患者的血红蛋白（Hb）水平低于90～100g/L作为红细胞成分输注指征。
+
+6.19
+
+术前贫血管理	preoperative anemia management
+
+
+　　在术前对择期手术患者的贫血状况进行诊断、评估，采用包括补充铁剂、应用促红细胞生成素和术前自体血储存等治疗手段，提高患者术前血红蛋白水平，增加患者对失血的耐受能力，降低异体输血的风险，促进术后快速康复。
+6.20
+
+医源性失血 iatrogenic blood loss
+可导致患者失血的多种医源性因素，如采血化验、侵入性检查、抗凝药物等。
+
+6.21
+
+控制性降压 controlled hypotension
+　　在保证重要脏器氧供的情况下，人为的将平均动脉压降低到50 mm Hg～65 mm Hg（平均基础血压下降30%），从而减少手术失血，改善术野环境，减少围手术期输血。
+6.22
+
+血小板计数增量校正值 corrected count increment；CCI
+用于评估血小板输注后患者血小板计数增加数量的判断方法。
+
+6.23
+
+血液安全监测 haemovigilance；HV
+　　血液质量管理体系的基本组成部分，是对输血链中所有与血液安全有关的幸免事件、不良事件、不良反应的相关信息进行持续、规范地收集、调查、鉴定、分析和报告的过程。血液安全监测可以对血液安全进行客观评估和持续改进，可以确定事件的原因、后果、残余风险和变化趋势，可以通过早期预警以阻止或预防事件的发生或再发生，可以改善决策机制，通过具有针对性和有效性的教育培训指导输血链中实践的改进，促进血液安全。
+6.23.1
+
+事件 event
+　　发生于输血链中的非期望事件，包括幸免事件（near miss）、不良事件（adverse event）和不良反应（adverse reaction）。
+6.23.1.1
+
+幸免事件 near miss
+在造成实质性后果之前被发现并纠正的非期望事件。
+
+6.23.1.2
+
+不良事件 adverse event
+对血液质量和献血者或受血者的安全造成或可能造成危害的偏差事件。
+
+6.23.1.3
+
+不良反应 adverse reaction
+发生于献血者或受血者，与献血或输血相关的非期望病理生理反应。
+
+6.23.2
+
+
+输血反应	transfusion reactions
+输血并发症 transfusion complications
+　　与输血具有时序相关性的不良反应。不良反应的原因可能是不良事件，也可能是患者与所输注血液相互作用。
+6.23.3
+
+免疫性输血反应 immunological transfusion reaction
+因输血导致受血者体内抗原-抗体反应和/或免疫细胞激活所产生的应答。
+
+6.23.3.1
+
+过敏反应 allergic reaction
+　　过敏原与体内已有的抗体间相互作用所致。在一些情况下，输入来自于具有遗传性过敏体质的献血者的抗体也会发生。部分可见于先天性IgA缺乏的患者。根据临床表现可分为局部性与全身性过敏反应。
+6.23.3.2
+
+急性溶血性输血反应 acute hemolytic transfusion reaction；AHTR
+速发型溶血性输血反应 immediate hemolytic transfusion reaction；IHTR
+　　在输血过程中、输血终止后即刻或输血后24h内，由于输入血液与受血者之间的免疫不相容导致的红细胞裂解或清除加速，多为血管内溶血。
+6.23.3.3
+
+慢性溶血性输血反应 chronic hemolytic transfusion reaction；CHTR 迟发型溶血性输血反应 delayed hemolytic transfusion reaction；DHTR
+在输血24h后或数天后才发生的溶血反应，主要由记忆性免疫应答引起，以血管外溶血为主。
+
+6.23.3.4
+
+同种异体免疫 alloimmunization
+　　在输血时或输血后受血者体内出现之前没有的具有临床意义的红细胞抗体，无溶血的临床症状或实验室表现。
+6.23.3.5
+
+非溶血性发热反应 febrile non-hemolytic transfusion reaction；FNHTR
+　　在输血过程中或输血终止后4h内以发热和/或寒战为临床表现，且能排除溶血、细菌污染、严重过敏及原发病等原因所导致的一类输血反应。
+6.23.3.6
+
+输血后紫癜 post-transfusion purpura；PTP
+输血后由免疫介导的血小板减少症。
+
+6.23.3.7
+
+输血相关移植物抗宿主病 transfusion-associated graft verse host disease；TA-GVHD
+　　具有免疫活性的淋巴细胞经输血进入易感受血者体内，在受血者体内存活、增殖并攻击宿主细胞， 致使受血者出现发热、皮肤损害、肝功能障碍及骨髓抑制性贫血，淋巴细胞浸润等症状和病理改变。
+
+
+6.23.3.8
+
+输血相关急性肺损伤 transfusion-related acute lung injury；TRALI
+　　输血中或输血后6h内出现的急性呼吸困难伴低氧血症， PaO2/FIO2（氧合指数）≤300 mmHg，同时胸部X线显示双侧肺部浸润，且无左心房高压（如循环过载），排除输血前存在急性肺损伤和其他导致急性肺损伤的危险因素。
+6.23.3.9
+
+输血相关免疫调节 transfusion-related immunomodulation；TRIM
+　　同种异体血液作为一种免疫原性和反应原性物质，在临床输血治疗中会伴随产生一系列涉及免疫调节的副反应，如术后感染率上升、恶性肿瘤复发率增加等。
+6.23.3.10
+
+血小板输注无效 platelet transfusion refractoriness
+　　患者接受足够剂量的血小板输注后，未达到预期的治疗效果，即血小板计数未见有效提高和/或临床出血症状未见改善。
+注：此处的血小板输注无效属于免疫性输血反应。
+
+6.23.3.11
+
+胎儿与新生儿溶血病 hemolytic disease of the fetus and newborn；HDFN
+　　孕妇体内因同种异体免疫而产生的IgG抗体穿过胎盘进入胎儿血液循环，与其红细胞发生免疫反应导致的溶血性疾病。
+6.23.4
+
+非免疫性输血反应 non-immunological transfusion reaction
+非免疫机制引起的输血反应。
+
+6.23.4.1
+
+输血相关性低血压 transfusion-associated hypotensive；TAH
+在输血过程中或输血终止后1h内出现的以血压降低为特征的临床表现。
+
+6.23.4.2
+
+输血相关循环超负荷 transfusion-associated circulation overload；TACO
+　　由于输血速度过快和/或输血量过大或受血者的潜在心肺疾病，输注的容量不能有效地被受血者所接受。
+6.23.4.3
+
+输血相关呼吸困难 transfusion-associated dyspnea；TAD
+输血结束后24h 内发生呼吸窘迫，不符合输血相关性急性肺损伤（TRALI）、输血相关循环超负荷
+（TACO）或过敏反应等诊断依据，且不能用患者潜在或已有疾病解释。
+
+6.23.4.4
+
+急性疼痛输血反应 acute pain transfusion reaction; APTR
+
+
+在输血开始后短时间内突然发生的躯干和四肢近端剧烈疼痛，输血中止后短时间内即可缓解。
+
+6.23.4.5
+
+大量输血相关并发症 complications of massive transfusion
+　　输入大量血液引起的患者的不良反应，与血液保存液中的抗凝剂拘橼酸钠、血清钾，以及输入大量低温储存血液有关。包括低体温、凝血功能异常、枸橼酸中毒、低钙与低镁血症、酸碱平衡失调、高钾血症、高血氨症和空气栓塞等。
+7输血管理学有关术语7.1
+质量管理 quality management
+　　确定质量方针、目标和职责并通过质量体系中的质量策划、质量控制、质量保证和质量改进使其实施的全部管理职能和所有活动。
+7.1.1
+
+质量管理体系 quality management system
+　　质量方面指挥和控制组织的管理体系。血站和医疗机构识别质量方针和质量目标，以及为获得所期望的结果而建立的组织结构、岗位职责、方针（方案）、过程、程序和资源的（所有）活动。
+7.1.2
+
+质量方针	quality policy
+最高管理者正式发布的该组织总的质量宗旨和方向。
+　　质量方针与血站和医疗机构的总方针相一致，可以与血站和医疗机构的愿景和使命相一致，并为制定质量目标提供框架。
+注：最高管理者：在最高层指挥和控制血站和医疗机构的一个人或一组人。
+
+7.1.3
+
+质量目标	quality objective
+　　在质量方面所追求的目的。通常依据血站和医疗机构的质量方针制定，并在血站内的相关职能、层级和过程分别规定质量目标。
+7.1.4
+
+质量手册 quality manual
+根据执行准则编写的纲领性文件，以体现质量管理体系的规范。
+
+7.1.5
+
+程序文件 procedure document
+　　阐明为实现既定的质量方针、目标所需的途径和方法，描述质量体系要素所涉及的各职能活动的文件，为质量手册的补充。
+7.1.6
+
+
+标准操作规程	standard operation procedure；SOP
+描述各项管理或技术活动的作业指导文件。
+
+7.1.7
+
+质量控制	quality control
+为达到质量要求所采取的作业技术和活动。
+
+7.1.8
+
+质量保证	quality assurance
+　　为了提供足够的信任表明实体能够满足质量要求，而在质量体系中实施并根据需要进行证实的全部有计划和有系统的活动。
+7.1.9
+
+质量改进 quality improvement
+　　质量管理的一部分，致力于增强满足质量要求的能力。质量要求可以是有关任何方面的，如有效性、效率或可追溯性。
+7.1.10
+
+管理评审 management review
+为确定质量体系达到质量方针的和质量目标的适宜性、充分性和有效性所进行的活动。
+
+7.1.11
+
+审核准则 audit criteria
+　　用于与记录、事实陈述或其他信息进行比较的一组质量方针、程序或质量要求。通常包括适用的法律和法规要求（如献血法、血站管理办法、临床用血管理办法等）、行业规范要求（如血站质量管理规范、血站实验室质量管理规范、血站技术操作规程、临床输血技术规范等）、标准要求（如献血者健康检查要求、全血及成分血质量要求等）和质量管理体系要求。
+7.1.12
+
+内部质量审核	internal audit 第一方审核 first party audit
+由机构自行组织为验证质量管理体系是否持续的满足规定的要求并且有效运行的一系列审核活动。
+
+7.1.13
+
+记录 record
+　　书面化的或通过电子媒体产生的信息，其能够提供所执行活动的客观证据或所得到的结果，如检测记录或审核结果。记录产生于活动被执行并被记录时。
+7.1.14
+
+可追溯性 traceability
+追溯产品、服务、过程、程序和资源活动的历史、应用情况或所处位置的能力。
+
+7.1.15
+
+
+确认	validation
+　　对新的或者有变化的过程、程序、设备、软件、关键物料进行系统检查，以保证在正式使用前符合预期使用要求的活动。
+7.1.16
+
+血液质量 blood quality
+全血和血液成分满足临床输血需要的特性总和。
+
+7.2
+
+血站信息系统 blood establishment computer system
+　　对血站业务流程实施计算机管理的信息系统，包括计算机硬件、软件、外围设备、网络、人员和文档（如用户手册和标准操作程序）。
+7.3
+
+血站信息系统确认 validation of blood establishment computer system
+对血站信息系统中的特定内容进行检查和提供客观证据，以证实特定需求已得到满足的认定。
+
+7.4
+
+实验室信息管理系统 laboratory information management system
+以数据库为核心的信息化技术与实验室管理需求相结合的信息化管理系统。
+
+7.5
+
+血液成分可追踪 traceability of blood component
+对任一全血或血液成分均可从献血到临床输血进行全程双向信息追踪。
+
+7.6
+
+区域联合屏蔽 inter-regional donor quarantine
+血站之间或不同区域之间通过对不适宜献血者的信息共享，实现献血者屏蔽。
+
+7.7
+
+献血者归队 donor reentry
+　　采用一定的检测及评估策略，证明因病原体标志物检测呈反应性而被延期或屏蔽的献血者符合献血的要求，准许其再次参加献血的程序。
+7.8
+
+血源性职业暴露	blood-borne occupational exposure
+　　从事采供血业务的人员在工作过程中，皮肤或粘膜直接接触了献血者的血液或被可能携带献血者血液的针头或锐器刺破皮肤的情况。
+7.9
+
+血液冷链	blood cold chain
+从血液采集到临床使用的整个过程，血液及血液成分的储存及运输维持在适宜的贮存温度和状态。
+
+
+7.10
+
+输血传播事件调查 transfusion transmission investigation
+　　当疑似受血者发生输血传播的感染事件时，或当献血者发生血清转换时，为确认输血传播的感染、防止疾病传播危害的进一步扩大所采取的调查工作。如果由疑似发生临床感染事件所启动的调查和采取相应措施的过程称为追溯 （traceback），如果由献血者发生血清转换所启动的调查和采取相应措施的过程称为回顾 （lookback）。
+
+
+
+
+索	引
+
+英文对应词索引
+Ａ
+A antigen	3.1.7.8
+ABO blood group determination	3.1.7.14
+ABO 血型定型	3.1.7.14
+absorbtion and elution test	6.2.8
+acute hemolytic transfusion reaction；AHTR	6.23.3.2
+acute hypervolemic hemodilution；AHH	6.13
+acute normovolemic hemodilution；ANH	6.12
+acute pain transfusion reaction；APTR	6.23.4.4
+adverse event	6.23.1.2
+adverse reaction	6.23.1.3
+agglutination	3.1.7.1
+allelic resolution typing	3.2.7
+allergic reaction	6.23.3.1
+alloimmunization	6.23.3.4
+altruistic blood donation	4.3.1
+anti-A	3.1.7.11
+anti-B	3.1.7.12
+antibody screening	6.2.6
+apheresis blood component	5.1.7
+apheresis	4.2
+audit criteria	7.1.11
+autologous transfusion	6.10
+A 抗原	3.1.7.8
+A 亚型	3.1.7.14.3
+Ｂ
+B antigen	3.1.7.9
+blood cold chain	7.9
+blood component	5.1.8
+blood conservation	6.8
+blood donation adverse reaction	5.1.10
+blood donation times per thousand population	4.7
+blood donation	4.1
+blood donations per thousand population	4.5
+blood donor .................................................................. 4.3, 4.3.1
+blood donors per thousand population	4.6
+
+blood establishment computer system	7.2
+blood group typing	3.1.2
+blood group	3.1.1
+blood quality	7.1.16
+blood screening test	5.3.1
+blood transfusion	6.1
+blood-borne occupational exposure	7.8
+blood-donor care	5.1.11
+Bombay phenotype	3.1.7.15
+buffy coat method	5.4.3
+buffy coat removed	5.4.5
+B 抗原	3.1.7.9
+B 亚型	3.1.7.14.3
+Ｃ
+cell grouping	3.1.7.14.1
+cell salvage	6.14
+chronic hemolytic transfusion reaction；CHTR	6.23.3.3
+CisAB group	3.1.7.14.4
+clinical transfusion medicine	2.1.4
+closed system	5.4.1
+cold-reactive agglutination	3.1.7.4
+collection	3.1.4
+common well-documented；CWD	3.2.12
+compatibility test	6.2.5
+complement-dependent lymphocytotoxicity test；CDC	3.2.4
+complication related to blood donation	5.1.10
+complications of massive transfusion	6.23.4.5
+confirmatory test	5.3.7
+confirmatory test for Rh negative	3.1.7.17.5.2
+controlled hypotension	6.21
+copper sulfate method	5.2.1
+corrected count increment；CCI	6.22
+cross reaction group；CREG	3.2.15
+crossmatch	6.2.1
+cryopreservation	5.4.7
+Ｄ
+D antigen	3.1.7.17.4
+D viarant	3.1.7.17.7
+Del phenotype	3.1.7.17.8
+delayed hemolytic transfusion reaction；DHTR	6.23.3.3
+department of transfusion medicine	2.2
+
+
+direct antiglobulin test；DAT	6.2.9
+direct Coombs test	6.2.9
+diversion pouch	5.1.9
+donor (informed) consent	5.1.1
+donor deferral	5.1.3
+donor identification	5.1.2
+donor quarantine	5.1.4
+donor reentry	7.7
+donor ........................................................................ 4.3, 4.3.1
+D 变异型	3.1.7.17.7
+D 抗原	3.1.7.17.4
+Del 表型	3.1.7.17.8
+Ｅ
+electronic crossmatch	6.2.4
+elite controller	3.3.6
+emerging infection	3.3.7
+event	6.23.1
+exchange transfusion	6.16
+external quality assessment；EQA	5.3.14
+Ｆ
+febrile non-hemolytic transfusion reaction；FNHTR	6.23.3.5
+first party audit	7.1.12
+first-time donor	4.3.2
+forward type	3.1.7.14.1
+freezing	5.4.9
+fundamental transfusion medicine	2.1.1
+Ｇ
+G code	3.2.11
+grey zone	5.3.6
+G 组编码	3.2.11
+Ｈ
+H antigen	3.1.7.10
+haemovigilance；HV	6.23
+hematocrit；Hct	5.2.2
+hematology analyzer method	5.2.1
+hemoglobin ；Hb	5.2.1
+hemoglobin test strip colorimetric assay	5.2.1
+hemolytic disease of the fetus and newborn；HDFN	6.23.3.11
+high resolution typing	3.2.8
+high-prevalence antigen series	3.1.5
+
+histocompatibility matching	3.2.6
+histocompatibility typing	3.2.6
+HLA class I antigen	3.2.3.1
+HLA class II antigen	3.2.3.2
+HLA genotyping	3.2.14
+HLA serologic typing	3.2.13
+HLA 基因分型	3.2.14
+HLA 血清学分型	3.2.13
+HLA-II 类抗原	3.2.3.2
+HLA-I 类抗原	3.2.3.1
+HLA 抗体固相筛选技术	3.2.17
+hospital blood bank	2.2
+human leucocyte antigen；HLA	3.2.3
+H 抗原	3.1.7.10
+Ｉ
+iatrogenic blood loss	6.20
+immediate hemolytic transfusion reaction；IHTR	6.23.3.2
+immunological transfusion reaction	6.23.3
+incidence rate	3.3.8
+indeterminate	5.3.10
+indirect antiglobulin test；IAT	6.2.10
+indirect Coombs test	6.2.10
+initial test	5.3.2
+inter-instrument	comparison	5.3.11
+inter-laboratory comparison	5.3.14
+internal audit	7.1.12
+internal quality control；IQC	5.3.13
+inter-reagent comparison	5.3.12
+inter-regional donor quarantine	7.6
+inventory management	5.5.3
+irradiation	5.4.13
+irregular antibody	3.1.7.6
+Ｌ
+laboratory information management system	7.4
+Landsteiner’s rule	3.1.7.13
+leukocyte reduction	5.4.6
+liberal transfusion strategy	6.18
+lookback	7.10
+low resolution typing	3.2.9
+low-prevalence antigen series	3.1.6
+lymphocyte microcytotoxicity test；LCT	3.2.4
+
+
+Ｍ
+major crossmatch	6.2.2
+major histocompatibility complex；MHC	3.2.1
+management review	7.1.10
+massive transfusion	6.15
+MHC class I molecule	3.2.3.1
+MHC class I region	3.2.1.1
+MHC class II molecule	3.2.3.2
+MHC class II region	3.2.1.2
+MHC class III region	3.2.1.3
+MHC-III 类区域	3.2.1.3
+MHC-II 类分子	3.2.3.2
+MHC-II 类区域	3.2.1.2
+MHC-I 类分子	3.2.3.1
+MHC-I 类区域	3.2.1.1
+minor crossmatch	6.2.3
+minor histocompatibility antigen；mHag	3.2.2
+mixed lymphocyte culture；MLC	3.2.5
+mixed lymphocyte reaction；MLR	3.2.5
+Ｎ
+natural antibody	3.1.7.5
+naturally occurring antibody	3.1.7.5
+near miss	6.23.1.1
+negative	5.3.9
+non-immunological transfusion reaction	6.23.4
+non-reactive	5.3.5
+non-remunerated voluntary blood donor	4.3.1
+nucleic acid testing yield；NAT yield	3.3.5
+Ｏ
+occult HBV infection；OBI	3.3.1.2
+one-way mixed lymphocyte culture	3.2.5
+open system	5.4.2
+optimal conditions variance；OCV	5.3.15
+Ｐ
+P code	3.2.10
+panel cells	3.1.7.7
+panel reactive antibody；PRA	3.2.16
+para-Bombay phenotype	3.1.7.16
+partial D	3.1.7.17.9
+pathogen inactivation；PI	5.4.12
+
+
+pathogen reduction；PR	5.4.11
+patient blood management；PBM	6.7
+plasma exchange	6.6
+platelet	count；PLT	5.2.3
+platelet transfusion refractoriness	6.23.3.10
+platelet-rich plasma method	5.4.4
+positive	5.3.8
+post-transfusion hepatitis ；PTH	3.3.1.1
+post-transfusion purpura；PTP	6.23.3.6
+preoperative anemia management	6.19
+preoperative autologous blood donation；PAD	6.11
+pretransfusion testing	6.2
+prevalence rate	3.3.9
+procedure document	7.1.5
+proficiency testing；PT	5.3.14
+pseudo-agglutination	3.1.7.2
+P 组编码	3.2.10
+Ｑ
+quality objective	7.1.3
+quality assurance	7.1.8
+quality control	7.1.7
+quality improvement	7.1.9
+quality management system	7.1.1
+quality management	7.1
+quality manual	7.1.4
+quality policy	7.1.2
+quarantine	5.5.1
+Ｒ
+reactive	5.3.4
+recalcification of plasma	3.1.3
+recipient (informed) consent	6.4
+recipient identification	6.3
+record	7.1.13
+red cell group system	3.1.7
+red cell reagent panel	3.1.7.7
+regular donor	4.3.4
+release	5.5.2
+repeat donor	4.3.3
+repeat test	5.3.3
+residual risk	3.3.10
+restrictive transfusion strategy	6.17
+
+
+reverse type	3.1.7.14.2
+Rh antigen	3.1.7.17.1
+Rh blood group system	3.1.7.17
+Rh haplotype	3.1.7.17.2
+Rh phenotype	3.1.7.17.3
+RhD initial typing	3.1.7.17.5.1
+RhD negative	3.1.7.17.4
+RhD positive	3.1.7.17.4
+RhD typing	3.1.7.17.5
+RhD 血型初检	3.1.7.17.5.1
+RhD 血型鉴定	3.1.7.17.5
+Rh 表型	3.1.7.17.3
+Rh 单倍型	3.1.7.17.2
+Rh 抗原	3.1.7.17.1
+Rh 血型系统	3.1.7.17
+Rh 阳性	3.1.7.17.4
+Rh 阴性	3.1.7.17.4
+Rh 阴性确认	3.1.7.17.5.2
+risk behavior	5.1.5
+rouleaux formation	3.1.7.3
+routine conditions variance	5.3.16
+Ｓ
+science of blood donation service	2.1.2
+seroconversion	3.3.4
+serum grouping	3.1.7.14.2
+shelf life	5.5.4
+solid phase HLA antibody detection technology	3.2.17
+standard operation procedure；SOP	7.1.6
+sterile welding	5.4.8
+subgroup	3.1.7.14.3
+subgroup of A	3.1.7.14.3
+subgroup of B	3.1.7.14.3
+Ｔ
+therapeutic	apheresis	6.5
+therapeutic dose	4.4
+therapeutic plasma exchange；TPE	6.6
+traceability of blood component	7.5
+traceability	7.1.14
+traceback	7.10
+transfusion complications	6.23.2
+transfusion management	2.1.5
+
+transfusion medicine	2.1
+transfusion reactions	6.23.2
+transfusion technology	2.1.3
+transfusion transmission investigation	7.10
+transfusion	6.1
+transfusion-associated circulation overload；TACO	6.23.4.2
+transfusion-associated dyspnea；TAD	6.23.4.3
+transfusion-associated graft verse host disease；TA-GVHD	6.23.3.7
+transfusion-associated hypotensive；TAH	6.23.4.1
+transfusion-free medicine	6.9
+transfusion-related acute lung injury；TRALI	6.23.3.8
+transfusion-related immunomodulation；TRIM	6.23.3.9
+transfusion-transmissible agent；TTA	3.3.2
+transfusion-transmissible infection	3.3.1
+transfusion-transmitted bacterial infection；TTBI	3.3.1
+transfusion-transmitted infection；TTI	3.3.1
+transfusion-transmitted parasitic infection；TTPI	3.3.1
+transfusion-transmitted viral infection；TTVI	3.3.1
+Ｕ
+unexpected antibody identification	6.2.7
+unexpected antibody screening	6.2.6
+unexpected antibody	3.1.7.6
+unit	4.4
+Ｖ
+validation of blood establishment computer system	7.3
+validation	7.1.15
+Ｗ
+washing	5.4.10
+weak D	3.1.7.17.6
+whole blood	5.1.6
+window period	3.3.3
+
+
+
+
+汉语拼音索引
+Ｂ
+白膜法	5.4.3
+保存期	5.5.4
+标准操作规程	7.1.6
+
+
+冰冻保存	5.4.7
+病原体灭活	5.4.12
+病原体去除	5.4.11
+补体依赖性细胞毒试验	3.2.4
+部分 D	3.1.7.17.9
+不规则抗体	3.1.7.6
+不良反应	6.23.1.3
+不良事件	6.23.1.2
+不确定	5.3.10
+Ｃ
+残余风险度	3.3.10
+常规条件变异	5.3.16
+常见及确认的HLA 等位基因表	3.2.12
+成分血	5.1.8
+程序文件	7.1.5
+迟发型溶血性输血反应	6.23.3.3
+初次试验	5.3.2
+初次献血者	4.3.2
+窗口期	3.3.3
+次侧交叉配血	6.2.3
+次要组织相容性抗原	3.2.2
+Ｄ
+大量输血	6.15
+大量输血相关并发症	6.23.4.5
+单采	4.2
+单采成分血	5.1.7
+单采血液成分	5.1.7
+单位	4.4
+单向混合淋巴细胞培养	3.2.5
+等位基因水平分型	3.2.7
+低分辨率分型	3.2.9
+低频抗原系列	3.1.6
+第一方审核	7.1.12
+电子交叉配血	6.2.4
+定期献血者	4.3.4
+Ｆ
+反定型	3.1.7.14.2
+反应性	5.3.4
+放行	5.5.2
+非免疫性输血反应	6.23.4
+
+
+非溶血性发热反应	6.23.3.5
+非限制性输血策略	6.18
+风险行为	5.1.5
+辐照	5.4.13
+复检	5.3.3
+富含法	5.4.4
+Ｇ
+高分辨率分型	3.2.8
+高频抗原系列	3.1.5
+隔离	5.5.1
+管理评审	7.1.10
+过敏反应	6.23.3.1
+Ｈ
+核酸检测收益	3.3.5
+红细胞比容	5.2.2
+红细胞血型系统	3.1.7
+换血	6.16
+患者血液管理	6.7
+灰区	5.3.6
+回顾	7.10
+混合淋巴细胞反应	3.2.5
+混合淋巴细胞培养	3.2.5
+Ｊ
+基础输血学	2.1.1
+急性等容性血液稀释	6.12
+急性高容性血液稀释	6.13
+急性溶血性输血反应	6.23.3.2
+急性疼痛输血反应	6.23.4.4
+集合	3.1.4
+记录	7.1.13
+假凝集	3.1.7.2
+间接抗球蛋白试验	6.2.10
+间接库姆氏试验	6.2.10
+交叉反应组	3.2.15
+交叉配血	6.2.1
+精英控制者	3.3.6
+捐血者	4.3.1
+Ｋ
+开放系统	5.4.2
+抗 A	3.1.7.11
+
+
+抗 B	3.1.7.12
+抗体谱细胞反应性	3.2.16
+抗体筛查	6.2.6
+可经输血传播的病原体	3.3.2
+可经输血传播的感染	3.3.1
+可追溯性	7.1.14
+控制性降压	6.21
+Ｌ
+兰德斯坦纳法则	3.1.7.13
+类孟买型	3.1.7.16
+冷凝集反应	3.1.7.4
+利他性献血	4.3.1
+临床输血学	2.1.4
+流行率	3.3.9
+硫酸铜法	5.2.1
+Ｍ
+慢性溶血性输血反应	6.23.3.3
+孟买型	3.1.7.15
+密闭系统	5.4.1
+免疫性输血反应	6.23.3
+缗钱状凝集	3.1.7.3
+Ｎ
+内部质量审核	7.1.12
+凝集	3.1.7.1
+Ｐ
+旁路转移袋	5.1.9
+谱细胞	3.1.7.7
+Ｑ
+千人口献血量	4.5
+千人口献血人次	4.7
+千人口献血人数	4.6
+区域联合屏蔽	7.6
+去白膜	5.4.5
+去白细胞	5.4.6
+全血	5.1.6
+确认	7.1.15
+确证试验	5.3.7
+群体反应性抗体	3.2.16
+
+Ｒ
+人类白细胞抗原	3.2.3
+弱 D	3.1.7.17.6
+Ｓ
+审核准则	7.1.11
+顺式 AB 型	3.1.7.14.4
+实验室间比对	5.3.14
+实验室能力验证	5.3.14
+实验室信息管理系统	7.4
+事件	6.23.1
+试剂比对	5.3.12
+试剂红细胞组	3.1.7.7
+室间质量评价	5.3.14
+室内质控	5.3.13
+受血者确认	6.3
+受血者知情同意	6.4
+输血	6.1
+输血并发症	6.23.2
+输血传播的病毒感染	3.3.1
+输血传播的寄生虫感染	3.3.1
+输血传播的细菌感染	3.3.1
+输血传播感染	3.3.1
+输血传播事件调查	7.10
+输血反应	6.23.2
+输血管理学	2.1.5
+输血后肝炎	3.3.1.1
+输血后紫癜	6.23.3.6
+输血技术学	2.1.3
+输血前检测	6.2
+输血相关呼吸困难	6.23.4.3
+输血相关急性肺损伤	6.23.3.8
+输血相关免疫调节	6.23.3.9
+输血相关性低血压	6.23.4.1
+输血相关循环超负荷	6.23.4.2
+输血相关移植物抗宿主病	6.23.3.7
+输血医学	2.1
+术前贫血管理	6.19
+术前自体血储存	6.11
+速冻	5.4.9
+速发型溶血性输血反应	6.23.3.2
+Ｔ
+
+
+胎儿与新生儿溶血病	6.23.3.11
+天然抗体	3.1.7.5
+同种异体免疫	6.23.3.4
+Ｗ
+微量淋巴细胞毒试验	3.2.4
+无反应性	5.3.5
+无菌熔接	5.4.8
+无输血医学	6.9
+Ｘ
+吸收放散试验	6.2.8
+洗涤	5.4.10
+细胞定型	3.1.7.14.1
+限制性输血策略	6.17
+献血	4.1
+献血不良反应	5.1.10
+献血服务学	2.1.2
+献血护理	5.1.11
+献血相关并发症	5.1.10
+献血者	4.3
+献血者归队	7.7
+献血者屏蔽	5.1.4
+献血者确认	5.1.2
+献血者延期	5.1.3
+献血者知情同意	5.1.1
+相容性试验	6.2.5
+新发感染	3.3.7
+新感染率	3.3.8
+幸免事件	6.23.1.1
+血红蛋白	5.2.1
+血红蛋白试纸条比色法	5.2.1
+血浆复钙化	3.1.3
+血浆置换	6.6
+血清定型	3.1.7.14.2
+血清转换	3.3.4
+血细胞回收	6.14
+血小板计数	5.2.3
+血小板计数增量校正值	6.22
+血小板输注无效	6.23.3.10
+血型	3.1.1
+血型鉴定	3.1.2
+血液安全监测	6.23
+
+血液保护	6.8
+血液成分	5.1.8
+血液成分可追踪	7.5
+血液分析仪检测法	5.2.1
+血液库存管理	5.5.3
+血液冷链	7.9
+血液筛查试验	5.3.1
+血液质量	7.1.16
+血源性职业暴露	7.8
+血站信息系统	7.2
+血站信息系统确认	7.3
+Ｙ
+亚型	3.1.7.14.3
+阳性	5.3.8
+医源性失血	6.20
+医院输血科	2.2
+医院血库	2.2
+仪器间比对	5.3.11
+意外抗体	3.1.7.6
+意外抗体鉴定	6.2.7
+意外抗体筛查	6.2.6
+阴性	5.3.9
+隐匿性乙型肝炎病毒感染	3.3.1.2
+Ｚ
+正定型	3.1.7.14.1
+直接抗球蛋白试验	6.2.9
+直接库姆氏试验	6.2.9
+质量保证	7.1.8
+质量方针	7.1.2
+质量改进	7.1.9
+质量管理	7.1
+质量管理体系	7.1.1
+质量控制	7.1.7
+质量目标	7.1.3
+质量手册	7.1.4
+治疗量	4.4
+治疗性单采	6.5
+治疗性血浆置换	6.6
+重复献血者	4.3.3
+主侧交叉配血	6.2.2
+主要组织相容性复合体	3.2.1
+
+
+追溯	7.10
+自体输血	6.10
+自愿无偿献血者	4.3.1
+组织相容性分型	3.2.6
+组织相容性配型	3.2.6
+最佳条件变异	5.3.15
+
+

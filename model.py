@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 import torch
 from torch import nn
-from transformers import BertForSequenceClassification, BertConfig, RobertaForSequenceClassification, RobertaConfig, \
-    AutoModelForSequenceClassification, AutoConfig
+# from transformers import BertForSequenceClassification, BertConfig, RobertaForSequenceClassification, RobertaConfig, \
+#     AutoModelForSequenceClassification, AutoConfig
 from config import *
 from utils import eval_object
 
 ClassifyClass = eval_object(model_dict[MODEL][1])
 ClassifyConfig = eval_object(model_dict[MODEL][2])
+bert_path_or_name = model_dict[MODEL][-1]
 
 import torch
 from typing import List, Optional
@@ -132,8 +133,7 @@ class CRF(nn.Module):
         if nbest is None:
             nbest = 1
         if mask is None:
-            mask = torch.ones(emissions.shape[:2], dtype=torch.uint8,
-                              device=emissions.device)
+            mask = torch.ones(emissions.shape[:2], dtype=torch.uint8, device=emissions.device)
         if mask.dtype != torch.uint8:
             mask = mask.byte()
         self._validate(emissions, mask=mask)
@@ -183,8 +183,12 @@ class CRF(nn.Module):
 
         # Start transition score and first emission
         # shape: (batch_size,)
-        score = self.start_transitions[tags[0]]
-        score += emissions[0, torch.arange(batch_size), tags[0]]
+        score = self.start_transitions[tags[0]]  # [batch_size,]
+        # print(emissions.shape)
+        # print(tags.shape)
+        # print(score.shape)
+        # print(emissions[0, torch.arange(batch_size), tags[0]])
+        score += emissions[0, torch.arange(batch_size), tags[0]]  # [batch_size]
 
         for i in range(1, seq_length):
             # Transition score to next tag, only added if next timestep is valid (mask == 1)
@@ -193,6 +197,7 @@ class CRF(nn.Module):
 
             # Emission score for next tag, only added if next timestep is valid (mask == 1)
             # shape: (batch_size,)
+            # print(emissions)
             score += emissions[i, torch.arange(batch_size), tags[i]] * mask[i]
 
         # End transition score
@@ -425,8 +430,6 @@ class CRF(nn.Module):
 class BertModel(nn.Module):
     def __init__(self):
         super(BertModel, self).__init__()
-        # self.bert = RobertaForSequenceClassification.from_pretrained(bert_path_or_name, num_labels=10)
-        # self.bert = ClassifyClass.from_pretrained(bert_path_or_name, num_labels=num_labels)
         self.bert = ClassifyClass.from_pretrained(bert_path_or_name)
         # self.bert = AutoModelForSequenceClassification.from_pretrained(bert_path_or_name, num_labels=10)
         self.device = torch.device("cuda")
@@ -436,7 +439,10 @@ class BertModel(nn.Module):
         self.crf = CRF(num_tags=num_labels, batch_first=True)
 
     def forward(self, **input_):
-        labels = input_.pop('labels', '')
+        if 'labels' in input_:
+            labels = input_.pop('labels', '')
+        else:
+            labels = None
         # print('labels')
         # print(labels)
         bert_output = self.bert(**input_)  # [bs, seq_len, num_labels]
@@ -448,4 +454,5 @@ class BertModel(nn.Module):
             loss = self.crf(emissions=logits, tags=labels, mask=input_['attention_mask'])
             outputs = (-1 * loss,) + outputs
         return outputs  # (loss), scores
+
 

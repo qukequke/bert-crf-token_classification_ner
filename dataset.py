@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
-# import csv
-from torch.nn.utils.rnn import pad_sequence
 from torch.utils.data import Dataset
 import pandas as pd
 import torch
 from config import *
+from utils import load_json
+
+label_2_id = load_json(json_dict)
 
 
 class DataPrecessForSentence(Dataset):
@@ -45,11 +46,12 @@ class DataPrecessForSentence(Dataset):
             df = pd.read_csv(file, engine='python', encoding=csv_encoding, error_bad_lines=False, nrows=n_nums)
         else:
             df = pd.read_csv(file, engine='python', encoding=csv_encoding, error_bad_lines=False)
+        # print(df)
         self.length = len(df)
         self.bert_tokenizer.model_max_length = max_seq_len
         print(f"数据集个数为{len(df)}")
         sentences = df[csv_rows[0]].tolist()
-        print(self.bert_tokenizer)
+        # print(self.bert_tokenizer)
         for ii, i in enumerate(sentences):
             assert isinstance(i, str), f"{i}, {ii}"
 
@@ -61,7 +63,7 @@ class DataPrecessForSentence(Dataset):
             labels = df[csv_rows[-1]].tolist()
             self.labels = labels.copy()
             labels = [eval(i) for i in labels]
-            labels = [(i + ([-100, ] * (seq_len - len(i)))) if seq_len > len(i) else i[:seq_len]
+            labels = [(i + ([label_2_id['pad'], ] * (seq_len - len(i)))) if seq_len > len(i) else i[:seq_len]
                       for i in labels]  # pad labels
             labels = torch.Tensor(labels).type(torch.long)
             data['labels'] = labels
@@ -83,8 +85,12 @@ class DataPrecessForSentence(Dataset):
         sentences_list = [['[CLS]'] + [i for i in sen] + ['[SEP]'] for sen in sentences]
         input_ids = [self.bert_tokenizer.convert_tokens_to_ids(sen) for sen in sentences_list]
         # print(input_ids)
+        # print(f"max_len 为{max_len}")
         attention_mask = [[1, ] * len(i) + [0, ] * (max_len - len(i)) for i in input_ids]
         input_ids = [i + [0, ] * (max_len - len(i)) for i in input_ids]
+        # for i, j in zip(input_ids, attention_mask):
+        #     print(len(i))
+        #     print(len(j))
         data_dict = {'attention_mask': attention_mask, 'input_ids': input_ids}
         data_dict = {k: torch.Tensor(v).type(torch.long) for k, v in data_dict.items()}
         # for i in input_ids:
@@ -96,18 +102,18 @@ class DataPrecessForSentence(Dataset):
 if __name__ == '__main__':
     from transformers import BertTokenizer
     from torch.utils.data import DataLoader
-
+    bert_path_or_name = model_dict[MODEL][-1]
     bert_tokenizer = BertTokenizer.from_pretrained(bert_path_or_name)
     dataset = DataPrecessForSentence(bert_tokenizer, train_file)
-    for i in dataset:
-        print(i)
-        break
+    # for i in dataset:
+    #     print(i)
+    #     break
     # print(len(dataset))
-    d = DataLoader(dataset, batch_size=20)
+    # d = DataLoader(dataset, batch_size=20)
     # print(len(d))
-    for ii, i in enumerate(d):
-        print(i)
-        print(ii)
-        break
+    # for ii, i in enumerate(d):
+    #     print(i)
+    #     print(ii)
+    #     break
 
     # tokenizer(["Hello, my dog is cute", 'plase call me shen'], return_tensors="pt", padding=True, truncation=True)

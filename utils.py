@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 12 02:08:46 2020
+import numpy as np
+import os
 
-@author: zhaog
-"""
 import logging
 from collections import Counter
 from importlib import import_module
@@ -11,6 +9,7 @@ from importlib import import_module
 import torch
 import torch.nn as nn
 import time
+from matplotlib import pyplot as plt
 from tqdm import tqdm
 from sklearn.metrics import roc_auc_score, accuracy_score
 from config import *
@@ -199,7 +198,7 @@ def validate(model, dataloader):
             running_loss += tmp_eval_loss.item()
 
             # _, out_classes_raw = probabilities.max(dim=-1)
-            out_classes_raw = tags[0]
+            out_classes_raw = tags[0] # [1, bs, num_lables]->[bs, num_labels] 第一代表1个序列解码出几个结果，一般是1个
             out_classes = [(torch.masked_select(i, mask.type(torch.bool)))[1:-1] for i, mask in
                            zip(out_classes_raw, tokened_data_dict['attention_mask'])]
             labels = [torch.masked_select(i, mask.type(torch.bool))[1:-1] for i, mask in
@@ -325,12 +324,12 @@ def my_metrics(decode_labels, decode_preds, id2label=None):
         found = found_counter.get(type_, 0)
         right = right_counter.get(type_, 0)
         recall, precision, f1 = compute(origin, found, right)
-        class_info[type_] = {"acc": round(precision, 4), 'recall': round(recall, 4), 'f1': round(f1, 4)}
+        class_info[type_] = {"acc": round(precision, 4), 'recall': round(recall, 4), 'f1': round(f1, 4), 'num': count}
     origin = len(origins)
     found = len(founds)
     right = len(rights)
     recall, precision, f1 = compute(origin, found, right)
-    return {'acc': precision, 'recall': recall, 'f1': f1}, class_info
+    return {'acc': precision, 'recall': recall, 'f1': f1, 'num': origin}, class_info
 
 
 def calc_decode_acc(decode_labels, decode_preds):
@@ -385,7 +384,6 @@ def calc_decode_acc(decode_labels, decode_preds):
     # right_num
 
 
-from config import json_dict
 
 
 def ner_decode(data):
@@ -427,7 +425,7 @@ def test_data(model, dataloader, tokenizer):
             labels = tokened_data_dict.get('labels')
             # seqs, masks, labels = batch_seqs.to(device), batch_seq_masks.to(device), batch_labels.to(device)
             # _, _, probabilities = model(**tokened_data_dict)  # [batch_size, n_label]
-            if labels:
+            if labels is not None:
                 loss, logits = model(**tokened_data_dict)
             else:
                 logits = model(**tokened_data_dict)[0]
@@ -445,7 +443,7 @@ def test_data(model, dataloader, tokenizer):
             out_classes = [(torch.masked_select(i, mask.type(torch.bool)))[1:-1] for i, mask in
                            zip(out_classes, tokened_data_dict['attention_mask'])]
             # print(out_classes)
-            if labels:
+            if labels is not None:
                 labels = [torch.masked_select(i, mask.type(torch.bool))[1:-1] for i, mask in
                           zip(labels, tokened_data_dict['attention_mask'])]
                 all_labels.extend(labels)
@@ -488,12 +486,15 @@ def train(model, dataloader, optimizer, epoch_number, max_gradient_norm):
     for batch_index, (tokened_data_dict) in enumerate(tqdm_batch_iterator):
         batch_start = time.time()
         tokened_data_dict = {k: v.to(device) for k, v in tokened_data_dict.items()}
-        labels = tokened_data_dict['labels']
+        # labels = tokened_data_dict['labels']
         optimizer.zero_grad()
         # for k, v in tokened_data_dict.items():
         #     print(k)
-        #     print(v.shape)
+        #     print(v)
         loss, logits = model(**tokened_data_dict)
+        tqdm_batch_iterator.set_description(f'loss:{loss.cpu().item()}')
+        # print(loss)
+        # print(logits)
         loss.backward()
         nn.utils.clip_grad_norm_(model.parameters(), max_gradient_norm)
         optimizer.step()
@@ -569,6 +570,8 @@ def get_entity_bio(seq, id2label):
         #output
         [['PER', 0,1], ['LOC', 3, 3]]
     """
+    print(seq)
+    print(id2label)
     chunks = []
     chunk = [-1, -1, -1]
     for indx, tag in enumerate(seq):
@@ -704,4 +707,33 @@ def get_logger(fmt='%(asctime)s - %(pathname)s[line:%(lineno)d] - %(levelname)s:
     return logger
 
 
+
+def save_json(file_name, dict_):
+    with open(file_name, 'w', encoding='utf-8') as f:
+        json.dump(dict_, f, ensure_ascii=False)
+
+
+# def load_json(file_name, value_is_array=False):
+#     with open(file_name, 'r', encoding='utf-8') as f:
+#         dict_ = json.load(f)
+#         return dict_
+def get_max(x, y):
+    max_x_index = np.argmax(y)
+    max_x = x[max_x_index]
+    max_y = y[max_x_index]
+    return max_x, max_y
+def my_plot(train_acc_list, losses):
+    plt.figure()
+    plt.plot(train_acc_list, color='r', label='dev_f1')
+    x = [i for i in range(len(train_acc_list))]
+    for add, list_ in enumerate([train_acc_list, ]):
+        max_x, max_y = get_max(x, list_)
+        plt.text(max_x, max_y, f'{(max_x, max_y)}')
+        plt.vlines(max_x, min(train_acc_list), max_y, colors='r' if add==0 else 'b', linestyles='dashed')
+        plt.hlines(max_y, 0, max_x, colors='r' if add==0 else 'b', linestyles='dashed')
+    plt.legend()
+    plt.savefig(os.path.join(os.path.dirname(train_file), 'dev_f1.png'))
+    plt.figure()
+    plt.plot(losses)
+    plt.savefig(os.path.join(os.path.dirname(train_file), 'loss.png'))
 logger = get_logger()
