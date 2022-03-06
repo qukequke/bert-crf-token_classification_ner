@@ -4,7 +4,7 @@
 ## 中文数据集 CNER
 类别：NAME,CONT,RACE,TITLE,EDU,ORG,LOC,PRO 8大类，再按OBMES标记,加上start、end、pad实际共31类
 
-# 数据样例格式
+# 原始数据样例格式
 ```
 高 B-NAME
 勇 E-NAME
@@ -30,7 +30,7 @@
 # 转换格式为csv
 好多数据都是这样的txt格式，然后按标点或者空格划分，统计起来不清晰，所以通过txt2csv.py转换成csv格式如下
 
-| sen | label_decode | label | raw_sen | length
+| sen | label_decode | label(前后加了[bos]和[sep]的label(也就是'O'的label(5))) | raw_sen | length
 | ---- | ---- |---- |---- |---- |
 "['高', '勇', '：', '男', '，', '中', '国', '国', '籍', '，', '无', '境', '外', '居', '留', '权', '，']"|"['B-NAME', 'I-NAME', 'O', 'O', 'O', 'B-CONT', 'I-CONT', 'I-CONT', 'I-CONT', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']"|"[5, 3, 4, 5, 5, 5, 6, 7, 7, 7, 5, 5, 5, 5, 5, 5, 5, 5, 5]"|高勇：男，中国国籍，无境外居留权，|17
 
