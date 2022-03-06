@@ -66,8 +66,13 @@ bert_crf_token_classification_raw/
 2、在config.py中修改dir_name
 
 # bert 训练曲线(20epoch)
-![image](data/med_data/dev_f1.png)
-![image](data/med_data/loss.png)
+
+model   |  acc             |  loss
+:-------------------------:|:-------------------------:|:-------------------------:
+bert | ![](data/cner/bert_dev_f1.png)  |  ![](data/cner/bert_loss.png)
+roberta | ![](data/cner/roberta_dev_f1.png)  |  ![](data/cner/roberta_loss.png)
+ernie  | ![](data/cner/ernie_dev_f1.png)  |  ![](data/cner/ernie_loss.png)
+albert  | ![](data/cner/albert_dev_f1.png)  |  ![](data/cner/albert_loss.png)
 
 # 具体参数可看config.py
 ```

@@ -15,18 +15,29 @@ model_dict = {
              'transformers.BertConfig',
              'bert-base-chinese'  # 使用模型
              ),
-
+    'ernie': (
+        'transformers.AutoTokenizer',
+        'transformers.BertModel',
+        'transformers.AutoConfig',
+        "nghuyong/ernie-1.0",  # 使用模型参数
+    ),
     'roberta': (
         'transformers.BertTokenizer',
         'transformers.RobertaModel',
         'transformers.RobertaConfig',
         'hfl/chinese-roberta-wwm-ext',
     ),
-    'albert': ('transformers.BertTokenizer',
+    'albert': ('transformers.AutoTokenizer',
                'transformers.AlbertModel',
-               'transformers.AlbertConfig'
+               'transformers.AutoConfig',
+               "voidful/albert_chinese_tiny",  # 使用模型参数
                ),
 }
+MODEL = 'roberta'
+# MODEL = 'ernie'
+# MODEL = 'albert'
+# MODEL = 'bert'
+
 epochs = 20
 batch_size = 32
 # batch_size = 1
@@ -46,7 +57,7 @@ freeze_bert_head = False  # freeze bert提取特征部分的权重
 # 切换任务时 数据配置
 csv_rows = ['raw_sen', 'label']  # csv的行标题，文本 和 类（目前类必须是列表）
 
-dir_name = 'med_data'
+dir_name = 'cner'
 train_file = f"data/{dir_name}/train.csv"
 dev_file = f"data/{dir_name}/dev.csv"
 # dev_file = f"data/{dir_name}/train.csv"
@@ -59,7 +70,6 @@ json_dict = f'data/{dir_name}/label_2_id.json'
 test_pred_out = f"data/{dir_name}/test_data_predict.csv"
 # csv_encoding = 'gbk'
 
-MODEL = 'bert'
 
 PREFIX = ''
 # max_src_length = 400

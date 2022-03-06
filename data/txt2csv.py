@@ -69,7 +69,7 @@ def change(file_name, file_out, dict_file, split_=' ', split_3=False):
 
 if __name__ == '__main__':
     json_dict = 'med_data/label_2_id.json'
-    get_dict('med_data/train.char.bmes', json_dict)  # 生成label2id字典，存储到json_dict
-    change('med_data/train.char.bmes', 'med_data/train.csv', json_dict)
-    change('med_data/test.char.bmes', 'med_data/test.csv', json_dict)
-    change('med_data/dev.char.bmes', 'med_data/dev.csv', json_dict)
+    get_dict('cner/train.char.bmes', json_dict)  # 生成label2id字典，存储到json_dict
+    change('cner/train.char.bmes', 'cner/train.csv', json_dict)
+    change('cner/test.char.bmes', 'cner/test.csv', json_dict)
+    change('cner/dev.char.bmes', 'cner/dev.csv', json_dict)

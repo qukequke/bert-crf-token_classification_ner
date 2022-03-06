@@ -15,7 +15,6 @@ from sys import platform
 
 from torch.utils.data import Dataset, DataLoader
 import pandas as pd
-import torch
 from tqdm import tqdm
 from transformers import BertTokenizer
 
@@ -24,7 +23,7 @@ from utils import load_json
 
 label_2_id = load_json(json_dict)
 
-dir_name = 'med_data'
+dir_name = 'cner'
 target_file = f'models/{dir_name}/best.pth.tar'  # 模型存储路径
 label_file = f'data/{dir_name}/label2id.json'
 bert_path_or_name = 'bert-base-chinese'  # 使用模型

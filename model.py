@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-import torch
 from torch import nn
-# from transformers import BertForSequenceClassification, BertConfig, RobertaForSequenceClassification, RobertaConfig, \
-#     AutoModelForSequenceClassification, AutoConfig
 from config import *
 from utils import eval_object
 
@@ -435,7 +432,10 @@ class BertModel(nn.Module):
         self.device = torch.device("cuda")
         # self.dropout = nn.Dropout(hidden_dropout_prob)
         self.dropout = nn.Dropout(0.1)
-        self.classifier = nn.Linear(768, num_labels)
+        if MODEL == 'albert':
+            self.classifier = nn.Linear(312, num_labels)
+        else:
+            self.classifier = nn.Linear(768, num_labels)
         self.crf = CRF(num_tags=num_labels, batch_first=True)
 
     def forward(self, **input_):
