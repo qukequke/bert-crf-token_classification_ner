@@ -33,10 +33,10 @@ model_dict = {
                "voidful/albert_chinese_tiny",  # 使用模型参数
                ),
 }
-MODEL = 'roberta'
+# MODEL = 'roberta'
 # MODEL = 'ernie'
 # MODEL = 'albert'
-# MODEL = 'bert'
+MODEL = 'bert'
 
 epochs = 20
 batch_size = 32

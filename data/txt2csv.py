@@ -68,7 +68,7 @@ def change(file_name, file_out, dict_file, split_=' ', split_3=False):
         df.to_csv(file_out, index=False, encoding='utf-8')
 
 if __name__ == '__main__':
-    json_dict = 'med_data/label_2_id.json'
+    json_dict = 'cner/label_2_id.json'
     get_dict('cner/train.char.bmes', json_dict)  # 生成label2id字典，存储到json_dict
     change('cner/train.char.bmes', 'cner/train.csv', json_dict)
     change('cner/test.char.bmes', 'cner/test.csv', json_dict)

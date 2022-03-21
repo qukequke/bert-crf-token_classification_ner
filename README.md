@@ -1,5 +1,5 @@
 
-中文NER命名实体识别，Bert, RoBerta，基于pytorch，开箱即用。
+中文NER命名实体识别，Bert, RoBerta，ernie, albert基于pytorch，开箱即用。
 
 ## 中文数据集 CNER
 类别：NAME,CONT,RACE,TITLE,EDU,ORG,LOC,PRO 8大类，再按BI标记,加上start、end、pad、O实际共20类
@@ -28,7 +28,7 @@
 9 O
 ```
 # 转换格式为csv
-好多数据都是这样的txt格式，然后按标点或者空格划分，统计起来不清晰，所以通过txt2csv.py转换成csv格式如下
+好多数据都是上面这样的txt格式，然后按标点或者空格划分，统计起来不清晰，所以通过txt2csv.py转换成csv格式如下
 
 | sen | label_decode | label(前后加了[bos]和[sep]的label(也就是'O'的label(5))) | raw_sen | length
 | ---- | ---- |---- |---- |---- |
@@ -40,8 +40,8 @@
 bert_crf_token_classification_raw/
 ├── data # 放数据
 │   ├── med_data #放数据
-│   │    ├── dev_f1.png # 训练时产生, 训练集、验证集正确率曲线
-│   │    ├── loss.png # 训练时产生, loss下降曲线
+│   │    ├── {model}_dev_f1.png # 训练时产生, 训练集、验证集正确率曲线
+│   │    ├── {model}_loss.png # 训练时产生, loss下降曲线
 │   │    ├── test_data_predict.csv # 行test.py得到的对test.csv的预测结果
 │   │    ├── label_2_id.json # 标签对应id，运行data/txt2csv.py可以产生
 │   │    ├── train.char.bmes # 原始训练数据,运行data/txt2csv.py变成train.csv
@@ -54,6 +54,7 @@ bert_crf_token_classification_raw/
 ├── config.py  # 配置文件
 ├── dataset.py # pytorch 文本数据整理成bert输入dataloader 
 ├── infer.py # 训练完成后,运行这个可以终端输入文本，输出结果 直接测试,并且这个文件不依赖其他文件，如果只用在预测，可以拷走这个文件和模型文件在里面配一下模型文件地址即可
+├── api.py # 训练完成后,运行这个可以用flask启动一个api，可打开127.0.0.1:5000查看
 ├── model.py # 放写模型的代码
 ├── test.py # 对test.csv文件的整体测试结果,增加一列预测结果，保存到csv文件，文件位置在config.py中配置
 ├── train.py # 训练

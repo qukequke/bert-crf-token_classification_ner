@@ -10,6 +10,7 @@
 from collections import Counter
 
 import time
+from flask import Flask, request
 
 from sys import platform
 
@@ -30,6 +31,8 @@ bert_path_or_name = 'bert-base-chinese'  # 使用模型
 batch_size = 64
 csv_rows = ['raw_sen', 'label']
 max_seq_len = 150
+
+
 # problem_type = 'multi_label_classification'
 # problem_type = 'single_label_classification'  # 单分类
 
@@ -69,7 +72,7 @@ class DataPrecessForSentence(Dataset):
             labels      : 标签取值为{0,1}，其中0表示负样本，1代表正样本。
         """
         if isinstance(file, list):
-            df = pd.DataFrame([{'raw_sen':i} for i in file])
+            df = pd.DataFrame([{'raw_sen': i} for i in file])
         else:
             if n_nums:
                 df = pd.read_csv(file, engine='python', encoding=csv_encoding, error_bad_lines=False, nrows=n_nums)
@@ -109,7 +112,7 @@ class DataPrecessForSentence(Dataset):
         """
         sen_max_len = max([len(i) for i in sentences])
         max_len = min(max_seq_len, sen_max_len)
-        sentences = [i[:max_len-2] for i in sentences]
+        sentences = [i[:max_len - 2] for i in sentences]
         sentences_list = [['[CLS]'] + [i for i in sen] + ['[SEP]'] for sen in sentences]
         input_ids = [self.bert_tokenizer.convert_tokens_to_ids(sen) for sen in sentences_list]
         # print(input_ids)
@@ -125,6 +128,7 @@ class DataPrecessForSentence(Dataset):
         #     a = self.bert_tokenizer.decode(i)
         #     print(a)
         return data_dict
+
 
 from torch import nn
 from config import *
@@ -153,7 +157,6 @@ model_dict = {
 MODEL = 'bert'
 ClassifyClass = eval_object(model_dict[MODEL][1])
 ClassifyConfig = eval_object(model_dict[MODEL][2])
-
 
 
 class CRF(nn.Module):
@@ -586,6 +589,8 @@ class BertModel(nn.Module):
             loss = self.crf(emissions=logits, tags=labels, mask=input_['attention_mask'])
             outputs = (-1 * loss,) + outputs
         return outputs  # (loss), scores
+
+
 def get_entity_bios(seq, id2label):
     """Gets entities from sequence.
     note: BIOS
@@ -686,6 +691,8 @@ def get_entities(seq, id2label, markup='bios'):
         return get_entity_bio(seq, id2label)
     else:
         return get_entity_bios(seq, id2label)
+
+
 def my_metrics(decode_labels, decode_preds, id2label=None):
     markup = 'bio'
     origins, founds, rights = [], [], []
@@ -712,11 +719,13 @@ def my_metrics(decode_labels, decode_preds, id2label=None):
     recall, precision, f1 = compute(origin, found, right)
     return {'acc': precision, 'recall': recall, 'f1': f1, 'num': origin}, class_info
 
+
 def compute(origin, found, right):
     recall = 0 if origin == 0 else (right / origin)
     precision = 0 if found == 0 else (right / found)
     f1 = 0. if recall + precision == 0 else (2 * precision * recall) / (precision + recall)
     return recall, precision, f1
+
 
 def data_t(model, dataloader, tokenizer):
     """
@@ -767,6 +776,7 @@ def data_t(model, dataloader, tokenizer):
     # accuracy /= (len(dataloader.dataset))
     return batch_time, total_time, accuracy, all_labels, all_pred
 
+
 def ner_decode(data):
     label2id = load_json(json_dict)
     id2label = {v: k for k, v in label2id.items()}
@@ -775,10 +785,12 @@ def ner_decode(data):
     d = [[id2label[j.item()] for j in i] for i in data]
     d = [','.join(i) for i in d]
     return d
+
+
 class Inferenve:
     def __init__(self):
         label2id = load_json(json_dict)
-        self.id2label_dict = {v:k for k, v in label2id.items()}
+        self.id2label_dict = {v: k for k, v in label2id.items()}
         self.device = torch.device("cuda")
         self.bert_tokenizer = BertTokenizer.from_pretrained(bert_path_or_name)
         print(20 * "=", " Preparing for testing ", 20 * "=")
@@ -804,11 +816,43 @@ class Inferenve:
         label_entities = [get_entities(i, self.id2label_dict, 'bio') for i in all_pred]
         return label_entities
 
+
+from flask_restplus import Api, Resource, reqparse
+
+app = Flask(__name__)
+
+
+@app.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add("Expries", -1)
+    response.headers.add("Cache-Control", "no-cache")
+    response.headers.add("Pragma", "no-cache")
+    return response
+
+
+api = Api(app, version='1.0', title='api调用', description='python swagger', )
+ns = api.namespace('api', description='实体识别')  # 模块命名空间
+
+tts_parser = reqparse.RequestParser()  # 参数模型
+tts_parser.add_argument('text', type=str, required=True, help="想要转语音的文字", default='高勇：男，中国国籍')
+
+infer = Inferenve()
+
+
+class Ner(Resource):
+    @ns.expect(tts_parser)
+    def get(self):
+        """
+        实体识别
+        """
+        d = request.args
+        text = d.get('text')
+        ret = infer.get_ret([text, ])[0]
+        ret = [[i[0], i[1], i[2] + 1] for i in ret]
+        return {'data': ret, 'is_success': 1}
+
+ns.add_resource(Ner, "/ner", endpoint="ner")
+
 if __name__ == '__main__':
-    infer = Inferenve()
-    while True:
-        data = input("请输入要预测的句子\n")
-        a = infer.get_ret([data, ])[0]
-        a = [[i[0], i[1], i[2]+1] for i in a]
-        print(f'{data}ner结果为')
-        print(a)
+    app.run(host='0.0.0.0', debug=False, port=5000)

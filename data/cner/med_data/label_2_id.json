@@ -1,0 +1,22 @@
+{
+  "start": 0,
+  "end": 1,
+  "pad": 2,
+  "B-NAME": 3,
+  "I-NAME": 4,
+  "O": 5,
+  "B-CONT": 6,
+  "I-CONT": 7,
+  "B-RACE": 8,
+  "I-RACE": 9,
+  "B-TITLE": 10,
+  "I-TITLE": 11,
+  "B-EDU": 12,
+  "I-EDU": 13,
+  "B-ORG": 14,
+  "I-ORG": 15,
+  "B-PRO": 16,
+  "I-PRO": 17,
+  "B-LOC": 18,
+  "I-LOC": 19
+}
